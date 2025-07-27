@@ -1,4 +1,43 @@
-<!DOCTYPE html>
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
 <html lang="en"> 
 <head>
   <meta name="google-site-verification" content="ep1lMxRRThnRDeoc1une65pqEawXGqjPbcEj1bJlF7w" />
@@ -6,74 +45,160 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Z-Tavern – BO2 Zombies Mod Project</title>
-  <meta name="description" content="Call of Duty Black Ops 2 Zombie Modded ! Join Z-Tavern for a unique BO2 Zombies mod experience with puzzles and community events! Explore now" />
+  <meta name="description" content="Call of Duty Black Ops 2 Zombie Modded! Join Z-Tavern for a unique BO2 Zombies mod experience with puzzles and community events! Explore now" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
       font-family: 'Cinzel', serif;
+      background-color: #1a1a1a; /* Modern dark gray for black-like zombie aesthetic */
+      scroll-behavior: smooth; /* Smooth scrolling */
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #2a2a2a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ff4040; /* Brighter red for zombie theme */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #ff6666;
+    }
+    .glow-one {
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Green glow for One */
+    }
+    .glow-vip {
+      text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00; /* Yellow glow for VIP */
+    }
+    .glow-mvp {
+      text-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040; /* Red glow for MVP */
+    }
+    .glow-button {
+      box-shadow: 0 0 10px #ff4040, 0 0 20px #ff4040; /* Red glow for buttons */
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .glow-button:hover {
+      box-shadow: 0 0 15px #ff4040, 0 0 30px #ff4040;
+      transform: scale(1.05);
+    }
+    .glow-icon {
+      transition: transform 0.3s;
+    }
+    .glow-icon:hover {
+      transform: scale(1.05);
+    }
+    .glow-one-icon {
+      filter: drop-shadow(0 0 5px rgba(0, 255, 0, 0.8)); /* Green glow for One icon */
+    }
+    .glow-vip-icon {
+      filter: drop-shadow(0 0 5px rgba(255, 255, 0, 0.8)); /* Yellow glow for VIP icon */
+    }
+    .glow-mvp-icon {
+      filter: drop-shadow(0 0 5px rgba(255, 64, 64, 0.8)); /* Red glow for MVP icon */
+    }
+    .footer-glow {
+      text-shadow: 0 0 5px #ff4040;
+    }
+    .hero-overlay {
+      background: rgba(26, 26, 26, 0.7); /* Dark overlay for hero section */
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
 </head>
-<body class="min-h-screen bg-gray-900 text-gray-200">
+<body class="min-h-screen text-gray-200">
   <!-- Navigation Bar -->
-  <nav class="sticky top-0 bg-gray-800 shadow-lg z-10">
+  <nav class="sticky top-0 bg-[#1a1a1a] shadow-lg z-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex items-center">
           <h1 class="text-2xl font-bold"><img src="https://i.imgur.com/0FH6BgJ.png" alt="Z-Tavern Logo" class="h-10 inline-block"></h1>
         </div>
         <div class="flex items-center space-x-4">
-          <a href="#home" class="text-gray-300 hover:text-yellow-500">Home</a>
-          <a href="#about" class="text-gray-300 hover:text-yellow-500">About</a>
-          <a href="#features" class="text-gray-300 hover:text-yellow-500">Features</a>
-          <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="text-gray-300 hover:text-yellow-500">Discord</a>
+          <a href="#home" class="text-gray-300 hover:text-[#ff4040] transition-colors">Home</a>
+          <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="text-gray-300 hover:text-[#ff4040] transition-colors">Discord</a>
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section with New Background -->
-  <section id="home" class="bg-[url('https://cdn.wallpapersafari.com/76/40/QIiBFG.jpg')] bg-cover bg-center h-96 flex items-center justify-center">
-    <div class="text-center bg-gray-900 bg-opacity-60 p-6 rounded-lg">
+  <!-- Hero Section with Custom Background -->
+  <section id="home" class="bg-[url('https://cdn.wallpapersafari.com/76/40/QIiBFG.jpg')] bg-cover bg-center h-96 flex items-center justify-center relative">
+    <div class="hero-overlay absolute inset-0"></div>
+    <div class="text-center bg-transparent p-8 rounded-lg shadow-lg relative z-10">
       <h1 class="text-4xl md:text-5xl font-bold mb-4"><img src="https://i.imgur.com/0FH6BgJ.png" alt="Z-Tavern Logo" class="h-16 inline-block"> Welcome to Z-Tavern</h1>
-      <p class="text-lg md:text-xl text-gray-200 mb-6">Z-Tavern is a cozy community hub for zombies addict !</p>
-      <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="inline-block bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded hover:bg-yellow-400">Join Our Discord</a>
+      <p class="text-lg md:text-xl text-gray-300 mb-6">Z-Tavern: Your gritty hub for Black Ops 2 Zombies modded mayhem!</p>
+      <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="inline-block bg-red-700 text-gray-900 font-bold py-2 px-4 rounded glow-button">Join Our Discord</a>
     </div>
   </section>
 
-  <!-- Features Section -->
-  <section id="features" class="py-16">
+  <!-- Rewards Section -->
+  <section id="rewards" class="py-16 bg-[#1a1a1a]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-yellow-500 text-center mb-12">What Z-Tavern Offers</h2>
+      <h2 class="text-3xl font-bold text-[#ff4040] text-center mb-2">Support Z-Tavern, Score Epic Rewards!</h2>
+      <div class="text-center mb-8">
+        <a href="https://www.patreon.com/c/ZTavern/membership" target="_blank" class="inline-block bg-red-700 text-gray-900 font-bold py-2 px-4 rounded glow-button">Join Now on Patreon</a>
+      </div>
+      <p class="text-center text-gray-300 mb-8">Join our Patreon and unlock exclusive perks to enhance your Z-Tavern experience. Support the community and dominate the undead!</p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Feature 1 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h3 class="text-xl font-bold text-gray-200 mb-2">Vibrant Community</h3>
-          <p class="text-gray-400">Connect with fellow adventurers in our lively Discord server.</p>
+        <!-- One Tier -->
+        <div class="bg-[#2a2a2a] p-6 rounded-lg shadow-lg text-center">
+          <img src="https://i.ibb.co/GvwhPzRt/Chat-GPT-Image-Jul-26-2025-02-48-40-PM.png" alt="One Tier Icon" class="h-16 mx-auto mb-4 glow-icon glow-one-icon">
+          <h3 class="text-xl font-bold text-gray-200 mb-2"><span class="text-[#00ff00] glow-one">One</span> - 1€ Sub</h3>
+          <ul class="text-left space-y-3">
+            <li class="font-bold text-gray-400">In-game <span class="text-[#00ff00] glow-one">One tag</span> + colored name</li>
+            <li class="font-bold text-gray-400"><span class="text-[#00ff00] glow-one">Permanent Juggernog</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#00ff00] glow-one">+50 HP</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#00ff00] glow-one">Exclusive Discord title</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#00ff00] glow-one">VIP channel</span> access</li>
+          </ul>
         </div>
-        <!-- Feature 2 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h3 class="text-xl font-bold text-gray-200 mb-2">Exciting Events</h3>
-          <p class="text-gray-400">Join tournaments, game nights, and themed events.</p>
+        <!-- VIP Tier -->
+        <div class="bg-[#2a2a2a] p-6 rounded-lg shadow-lg text-center">
+          <img src="https://i.ibb.co/KzSG1rN8/Chat-GPT-Image-Jul-26-2025-02-46-35-PM.png" alt="VIP Tier Icon" class="h-16 mx-auto mb-4 glow-icon glow-vip-icon">
+          <h3 class="text-xl font-bold text-gray-200 mb-2"><span class="text-[#ffff00] glow-vip">VIP</span> - 5€ Sub</h3>
+          <ul class="text-left space-y-3">
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">1x Points Multiplier</span></li>
+            <li class="font-bold text-gray-400">In-game <span class="text-[#ffff00] glow-vip">VIP tag</span> + colored name</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">Permanent Juggernog</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">Free .rev</span> & reduced cooldown</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">1x .revall</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">Premium Pass</span>: Permanent Speed Cola, better starting weapon, .revall</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">+50 HP</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">Exclusive Discord title</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ffff00] glow-vip">VIP channel</span> access</li>
+          </ul>
         </div>
-        <!-- Feature 3 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
-          <h3 class="text-xl font-bold text-gray-200 mb-2">Epic Adventures</h3>
-          <p class="text-gray-400">Embark on quests and share your gaming stories.</p>
+        <!-- MVP Tier -->
+        <div class="bg-[#2a2a2a] p-6 rounded-lg shadow-lg text-center">
+          <img src="https://i.ibb.co/BHKS2QpG/Chat-GPT-Image-Jul-26-2025-02-45-15-PM.png" alt="MVP Tier Icon" class="h-16 mx-auto mb-4 glow-icon glow-mvp-icon">
+          <h3 class="text-xl font-bold text-gray-200 mb-2"><span class="text-[#ff4040] glow-mvp">MVP</span> - 15€ Sub</h3>
+          <ul class="text-left space-y-3">
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">Early access</span> to new content</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">1.5x Points Multiplier</span></li>
+            <li class="font-bold text-gray-400">In-game <span class="text-[#ff4040] glow-mvp">MVP tag</span> + colored name</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">Permanent Juggernog</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">Free .rev</span> & reduced cooldown</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">2x .revall</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">Premium Pass</span>: Permanent Speed Cola, better starting weapon, .revall</li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">+50 HP</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">Exclusive Discord title</span></li>
+            <li class="font-bold text-gray-400"><span class="text-[#ff4040] glow-mvp">VIP channel</span> access</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 py-8">
+  <footer class="bg-[#1a1a1a] py-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-gray-400 mb-2">© 2025 Z-Tavern. All rights reserved.</p>
+      <p class="text-gray-400 mb-2 footer-glow">© 2025 Z-Tavern. All rights reserved.</p>
       <div class="flex justify-center space-x-4">
-        <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="text-gray-300 hover:text-yellow-500">Discord</a>
-        <a href="mailto:thediscordtavern@gmail.com" class="text-gray-300 hover:text-yellow-500">Contact Us</a>
+        <a href="https://discord.gg/2AaKxkQeQz" target="_blank" class="text-gray-300 hover:text-[#ff4040] transition-colors footer-glow">Discord</a>
+        <a href="mailto:thediscordtavern@gmail.com" class="text-gray-300 hover:text-[#ff4040] transition-colors footer-glow">Contact Us</a>
       </div>
     </div>
   </footer>
