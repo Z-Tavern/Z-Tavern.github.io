@@ -1,135 +1,97 @@
-
 #include common_scripts\utility;
 #include maps\mp\_utility;
 #include maps\mp\zombies\_zm_utility;
 #include maps\mp\animscripts\zm_utility;
 
+// Initialize global game settings
 main()
 {
     level endon("game_end");
     
-    // Constructor START
-    level.tower_port = "30007";
-    level.blessing_count = 7;
-    level.is_miniboss = 0;
-    level.is_midboss = 0;
-    level.votes = 0;  
+    level.blessing_count = 6;
     level.zombie_ai_limit = 32;
     level.zombie_actor_limit = 40;
-    level.extra_hp = 0;
-    level.extra_panzer = 0;
-    level.extra_speed = 0;
-    level.is_boss_casting = 0;
-    level.primaryprogressbarwidth = 400;
-    level.primaryprogressbarheight = 15;
-    level.primaryprogressbarfontsize = 1;
-    level.player_out_of_playable_area_monitor = false;
-
-    level.staff_player_id = -1;
-    level.isStamOn = false;
-    level.isJuggOn = false;
-    level.isQuickOn = false;
-    level.isReloadOn = false;
     level.wave_modifier = 1.5;
-
-    level.area_completed = 0;   
-    level.final_wave = 0;
-    level.boss_name = "^1You^3";
-    level.game_started = 0;
-    level.difficulty_selected = 0;
-    level.ez_difficulty_vote_count = 0;
-    level.chad_difficulty_vote_count = 0;
-    level.gigachad_difficulty_vote_count = 0;
-    level.gamemode_difficulty = "^2Ez^7";
-    level.vote_required = 8;
-
     level.max_cells = 500;
-    level.max_cells_growth = 50;
-    level.research = 0;
-    level.prestige = 0;
-    level.prestige_names = [];
-    level.prestige_names[level.prestige_names.size] = "^9Noob^7";
-
-    level.cells_multiplier = 0;
+    level.starting_cells = 10;
     level.lvl = 1;
-    level.xp = 0;
     level.towerlevel = 1;
-    level.guid_starting_cells = 10;
-    level.starting_cells = level.guid_starting_cells;
-
     level.nexus_hp = 1000;
     level.nexus_fr = 1;
     level.nexus_cd = 10;
     level.nexus_shield = 1;
-    level.blessing_selected = 0; // Initialize to prevent undefined error
-    // Constructor END
+    level.blessing_selected = 0;
+    level.gamemode_difficulty = "^2Ez^7";
 
-    wait 0.1; // Ensure map assets load before initializing blessings
-    init_blessing(); // Fixed: Call directly instead of threading
+    wait 0.1;
+    init_blessing();
 }
 
+// Define blessings with costs set to 50000 cash
 init_blessing()
 {
     level endon("game_end");
 
-    // Define blessing tiers and properties
     level.blessing_array = [];
     level.blessing_array_desc = [];
-    level.blessing_costs = []; // [cash, zcoins]
-    level.blessing_min_level = []; // Minimum level to unlock
-    level.blessing_min_prestige = []; // Minimum prestige to unlock
-    level.blessing_bonus = []; // Bonus effects (e.g., cash/xp multiplier)
+    level.blessing_costs = [];
+    level.blessing_min_level = [];
+    level.blessing_min_prestige = [];
+    level.blessing_bonus = [];
 
-    // Basic Blessings (Level 1+, Prestige 0)
-    /*level.blessing_array[level.blessing_array.size] = "Extra Life";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3Grants a Dying Wish charge (+10 percent XP)";
-    level.blessing_costs[level.blessing_costs.size] = [10000, 1];
-    level.blessing_min_level[level.blessing_min_level.size] = 1;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 0;
-    level.blessing_bonus[level.blessing_bonus.size] = "xp_10";
+    // Extra Life: Level 1, Prestige 0
+    level.blessing_array[0] = "Extra Life";
+    level.blessing_array_desc[0] = "^3Grants a Dying Wish charge (+10% XP) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[0] = 50000;
+    level.blessing_min_level[0] = 1;
+    level.blessing_min_prestige[0] = 0;
+    level.blessing_bonus[0] = "xp_10";
 
-    level.blessing_array[level.blessing_array.size] = "Speedrunner";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3Increases movement speed (+5% cash)";
-    level.blessing_costs[level.blessing_costs.size] = [15000, 2];
-    level.blessing_min_level[level.blessing_min_level.size] = 1;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 0;
-    level.blessing_bonus[level.blessing_bonus.size] = "cash_5";
+    // Speedrunner: Level 1, Prestige 0
+    level.blessing_array[1] = "Speedrunner";
+    level.blessing_array_desc[1] = "^3Increases movement speed (+5% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[1] = 50000;
+    level.blessing_min_level[1] = 1;
+    level.blessing_min_prestige[1] = 0;
+    level.blessing_bonus[1] = "cash_5";
 
-    // Advanced Blessings (Level 5+, Prestige 0)
-    level.blessing_array[level.blessing_array.size] = "Juggernaut";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3Increases HP to 250 (+10% cash)";
-    level.blessing_costs[level.blessing_costs.size] = [30000, 3];
-    level.blessing_min_level[level.blessing_min_level.size] = 5;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 0;
-    level.blessing_bonus[level.blessing_bonus.size] = "cash_10";
+    // Juggernaut: Level 5, Prestige 0
+    level.blessing_array[2] = "Juggernaut";
+    level.blessing_array_desc[2] = "^3Increases HP to 250 (+10% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[2] = 50000;
+    level.blessing_min_level[2] = 5;
+    level.blessing_min_prestige[2] = 0;
+    level.blessing_bonus[2] = "cash_10";
 
-    level.blessing_array[level.blessing_array.size] = "Medic";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3Faster revives (+15% XP)";
-    level.blessing_costs[level.blessing_costs.size] = [20000, 2];
-    level.blessing_min_level[level.blessing_min_level.size] = 5;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 0;
-    level.blessing_bonus[level.blessing_bonus.size] = "xp_15";
+    // Medic: Level 5, Prestige 0
+    level.blessing_array[3] = "Medic";
+    level.blessing_array_desc[3] = "^3Faster revives (+15% XP) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[3] = 50000;
+    level.blessing_min_level[3] = 5;
+    level.blessing_min_prestige[3] = 0;
+    level.blessing_bonus[3] = "xp_15";
 
-    // Elite Blessings (Level 10+, Prestige 1)
-    level.blessing_array[level.blessing_array.size] = "Business";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3Passive cell income (+20% cells)";
-    level.blessing_costs[level.blessing_costs.size] = [50000, 5];
-    level.blessing_min_level[level.blessing_min_level.size] = 10;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 1;
-    level.blessing_bonus[level.blessing_bonus.size] = "cells_20";
+    // Business: Level 10, Prestige 1
+    level.blessing_array[4] = "Business";
+    level.blessing_array_desc[4] = "^3Passive cell income (+20% cells) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[4] = 50000;
+    level.blessing_min_level[4] = 10;
+    level.blessing_min_prestige[4] = 1;
+    level.blessing_bonus[4] = "cells_20";
 
-    level.blessing_array[level.blessing_array.size] = "Slayer";
-    level.blessing_array_desc[level.blessing_array_desc.size] = "^3+0.5% damage per kill (+15% cash)";
-    level.blessing_costs[level.blessing_costs.size] = [40000, 4];
-    level.blessing_min_level[level.blessing_min_level.size] = 10;
-    level.blessing_min_prestige[level.blessing_min_prestige.size] = 1;
-    level.blessing_bonus[level.blessing_bonus.size] = "cash_15";*/
+    // Slayer: Level 10, Prestige 1
+    level.blessing_array[5] = "Slayer";
+    level.blessing_array_desc[5] = "^3+0.5% damage per kill (+15% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_costs[5] = 50000;
+    level.blessing_min_level[5] = 10;
+    level.blessing_min_prestige[5] = 1;
+    level.blessing_bonus[5] = "cash_15";
 }
 
+// Handle player connection
 on_player_connect()
 {
     level endon("game_end");
-
     for(;;)
     {
         level waittill("connected", player);
@@ -137,45 +99,31 @@ on_player_connect()
     }
 }
 
+// Initialize player on spawn and trigger blessing selector
 on_player_spawned()
 {
     self endon("disconnect");
-    level endon("game_ended"); 
+    level endon("game_ended");
 
-    if (getdvar("net_port") != level.tower_port)
-        return;
     flag_wait("initial_blackscreen_passed");
+
+    self.lvl = 1;
+    self.prestige = 0;
     self.noslow = 0;
     self.extrahp = 0;
     self.extrams = 0;
     self.hasBlessing = 0;
     self.slide_available = 1;
+    self.score = 100000; // Enough cash for testing
+    self.cells = level.starting_cells;
+    self.max_cells = level.max_cells;
+    self.blessing_array = [];
 
-    level.pers_upgrade_revive = 1;
-    if (level.game_started == 0 && self.sessionstate != "spectator")
-    {
-        id = self getEntityNumber();
-      //  self thread tp_to_HQ(id);
-        self thread blessing_selector();
-        self thread player_slide();
-    }
-    lock = 0;
-    for (;;)
-    {
-        if (self.sessionstate == "spectator")
-        {
-            lock = 1;
-        }
-        else if (lock == 1)
-        {
-            id = self getEntityNumber();
-       //     self thread tp_to_HQ(id);
-            lock = 0;
-        }
-        wait 0.1;
-    }
+    self thread blessing_selector();
+    self thread player_slide();
 }
 
+// Handle player slide ability
 player_slide()
 {
     self endon("disconnect");
@@ -186,23 +134,22 @@ player_slide()
     slide_stamina = 100;
     stamina_regen_rate = 20;
 
-    for (;;)
+    for(;;)
     {
-        if (isdefined(self.slide_available) && isdefined(self.lvl) && self.lvl >= 5 && isdefined(self.speedrunner) && self.speedrunner == 1)
+        if(isdefined(self.slide_available) && self.lvl >= 5 && isdefined(self.speedrunner) && self.speedrunner == 1)
         {
-            if (self SprintButtonPressed() && self StanceButtonPressed() && slide_stamina >= 50 && self isOnGround())
+            if(self SprintButtonPressed() && self StanceButtonPressed() && slide_stamina >= 50 && self isOnGround())
             {
                 forward = anglesToForward(self GetPlayerAngles());
                 slide_velocity = vectorScale(forward, 400);
                 self SetVelocity(slide_velocity);
                 self playsound("zmb_player_slide");
-                if (isdefined(level._effect["fx_dust_slide"]))
+                if(isdefined(level._effect["fx_dust_slide"]))
                     playfx(level._effect["fx_dust_slide"], self.origin);
 
                 slide_stamina -= 50;
                 self iprintln("^3Slide Activated!^7 Stamina: " + slide_stamina);
                 wait slide_duration;
-
                 self SetVelocity((0, 0, 0));
                 self.slide_available = 0;
                 wait slide_cooldown;
@@ -210,143 +157,242 @@ player_slide()
                 self iprintln("^3Slide Ready!^7");
             }
         }
-
-        if (slide_stamina < 100)
-        {
+        if(slide_stamina < 100)
             slide_stamina = min(slide_stamina + (stamina_regen_rate * 0.05), 100);
-        }
         wait 0.05;
     }
 }
 
+// Display and handle blessing selection with two-option UI
 blessing_selector()
 {
     self endon("disconnect");
     level endon("game_ended");
 
-    self.blessing_hud = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
-    self.blessing_hud maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 20);
-    self.blessing_hud settext("^5Select a Blessing (Melee to cycle, Use to confirm)");
-    self.blessing_hud.alpha = 0.8;
-    self.blessing_hud.foreground = 1;
-
-    self.blessing_desc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
-    self.blessing_desc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 50);
-    self.blessing_desc.alpha = 0.8;
-    self.blessing_desc.foreground = 1;
-
-    available_blessings = [];
-    available_descs = [];
-    available_costs = [];
-    for (i = 0; i < level.blessing_array.size; i++)
+    if(self.sessionstate != "playing")
     {
-        if (isdefined(self.lvl) && isdefined(self.prestige) && self.lvl >= level.blessing_min_level[i] && self.prestige >= level.blessing_min_prestige[i])
-        {
-            available_blessings[available_blessings.size] = level.blessing_array[i];
-            available_descs[available_descs.size] = level.blessing_array_desc[i] + "\n^3Cost: ^2" + level.blessing_costs[i][0] + " Cash, ^5" + level.blessing_costs[i][1] + " Z-Coins";
-            available_costs[available_costs.size] = level.blessing_costs[i];
-        }
-    }
-
-    if (available_blessings.size == 0)
-    {
-        self iprintln("^1No blessings available! Level up to unlock.");
-        self.blessing_hud destroy();
-        self.blessing_desc destroy();
+        self iprintln("^1Cannot select blessing in spectator mode!");
         return;
     }
 
-    current_index = 0;
-    has_selected = 0;
-    for (i = 0; i < 600; i++)
+    maps\mp\_visionset_mgr::vsmgr_activate("visionset", "zm_audio_log", self);
+
+    // Filter available blessings based on level, prestige, and existing blessings
+    blessing_array_tmp = [];
+    blessing_array_tmp_desc = [];
+    blessing_array_tmp_costs = [];
+
+    foreach(i, blessing in level.blessing_array)
     {
-        self.blessing_desc settext(available_descs[current_index]);
-        if (self MeleeButtonPressed())
+        if(level.gamemode_difficulty == "^9Endless^7" && blessing == "Slayer")
+            continue;
+        if(isdefined(self.lvl) && isdefined(self.prestige) && self.lvl >= level.blessing_min_level[i] && self.prestige >= level.blessing_min_prestige[i])
         {
-            current_index = (current_index + 1) % available_blessings.size;
+            have_blessing = 0;
+            foreach(player_blessing in self.blessing_array)
+            {
+                if(player_blessing == blessing)
+                {
+                    have_blessing = 1;
+                    break;
+                }
+            }
+            if(!have_blessing)
+            {
+                blessing_array_tmp[blessing_array_tmp.size] = blessing;
+                blessing_array_tmp_desc[blessing_array_tmp_desc.size] = level.blessing_array_desc[i];
+                blessing_array_tmp_costs[blessing_array_tmp_costs.size] = level.blessing_costs[i];
+            }
+        }
+    }
+
+    if(blessing_array_tmp.size < 2)
+    {
+        self iprintln("^1Not enough blessings available! Level up to unlock.");
+        maps\mp\_visionset_mgr::vsmgr_deactivate("visionset", "zm_audio_log", self);
+        return;
+    }
+
+    // Select two random blessings
+    rand = randomintrange(0, blessing_array_tmp.size);
+    blessing_left = blessing_array_tmp[rand];
+    blessing_left_desc = blessing_array_tmp_desc[rand];
+    blessing_left_cost = blessing_array_tmp_costs[rand];
+    selected = rand;
+    while(true)
+    {
+        rand = randomintrange(0, blessing_array_tmp.size);
+        if(rand != selected)
+            break;
+        wait 0.05;
+    }
+    blessing_right = blessing_array_tmp[rand];
+    blessing_right_desc = blessing_array_tmp_desc[rand];
+    blessing_right_cost = blessing_array_tmp_costs[rand];
+
+    // Create HUD elements
+    self.zombieChoiceA = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
+    self.zombieChoiceA maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 21);
+    self.zombieChoiceA settext("^5Select your Blessing");
+    self.zombieChoiceA.alpha = 0.8;
+    self.zombieChoiceA.foreground = 1;
+
+    self.zombieChoiceAdesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
+    self.zombieChoiceAdesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 45);
+    self.zombieChoiceAdesc settext("^3Melee^5 to switch, ^3Use^5 to confirm^7");
+    self.zombieChoiceAdesc.alpha = 0.8;
+    self.zombieChoiceAdesc.foreground = 1;
+
+    shader = "zombies_rank_5";
+    self.notifyiconb = drawshader(shader, 70, 68, 140, 140, (1, 0, 0), 1);
+    self.notifyicon = drawshader(shader, 70, 70, 128, 128, (0, 0, 0), 1);
+    self.notifyicon2b = drawshader(shader, -70, 68, 140, 140, (1, 0, 0), 1);
+    self.notifyicon2 = drawshader(shader, -70, 70, 128, 128, (0, 0, 0), 1);
+    shader = "zombies_rank_3";
+    self.notifyiconA = drawshader(shader, 0, 4, 231, 66, (0, 0, 1), 1);
+    self.notifyicon2a = drawshader(shader, 0, 4, 210, 60, (0, 0, 0), 1);
+
+    self.zombieChoiceLeft = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
+    self.zombieChoiceLeft maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", -70, 100);
+    self.zombieChoiceLeft settext("^3[^5" + blessing_left + "^3]^7");
+    self.zombieChoiceLeft.alpha = 0.8;
+    self.zombieChoiceLeft.foreground = 1;
+
+    self.zombieChoiceRight = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
+    self.zombieChoiceRight maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 70, 100);
+    self.zombieChoiceRight settext("^5" + blessing_right + "^7");
+    self.zombieChoiceRight.alpha = 0.8;
+    self.zombieChoiceRight.foreground = 1;
+
+    self.zombieChoiceLeftDesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
+    self.zombieChoiceLeftDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", -70, 130);
+    self.zombieChoiceLeftDesc settext(blessing_left_desc);
+    self.zombieChoiceLeftDesc.alpha = 0.8;
+    self.zombieChoiceLeftDesc.foreground = 1;
+
+    self.zombieChoiceRightDesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
+    self.zombieChoiceRightDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 70, 130);
+    self.zombieChoiceRightDesc settext(blessing_right_desc);
+    self.zombieChoiceRightDesc.alpha = 0.8;
+    self.zombieChoiceRightDesc.foreground = 1;
+
+    // Selection loop
+    selector = "left";
+    has_selected = 0;
+    for(i = 0; i < 600; i++)
+    {
+        if(self MeleeButtonPressed())
+        {
+            selector = (selector == "left") ? "right" : "left";
+            self.zombieChoiceLeft settext(selector == "left" ? "^3[^5" + blessing_left + "^3]^7" : "^5" + blessing_left + "^7");
+            self.zombieChoiceRight settext(selector == "right" ? "^3[^5" + blessing_right + "^3]^7" : "^5" + blessing_right + "^7");
             wait 0.2;
         }
-        if (self UseButtonPressed())
+        if(self UseButtonPressed())
         {
-            selected_blessing = available_blessings[current_index];
-            selected_cost = available_costs[current_index];
-            playerzcoin = int(getDvar("zcoins_" + self getGuid()));
-            if (self.score >= selected_cost[0] && playerzcoin >= selected_cost[1])
+            selected_blessing = (selector == "left") ? blessing_left : blessing_right;
+            selected_cost = (selector == "left") ? blessing_left_cost : blessing_right_cost;
+            if(self.score >= selected_cost)
             {
-                self maps\mp\zombies\_zm_score::minus_to_player_score(selected_cost[0], 1);
-                setDvar("zcoins_" + self getGuid(), playerzcoin - selected_cost[1]);
-                self iprintln("^5" + selected_cost[1] + " Z-Coins used. Remaining: ^5" + getDvar("zcoins_" + self getGuid()));
+                self maps\mp\zombies\_zm_score::minus_to_player_score(selected_cost, 1);
                 self apply_blessing(selected_blessing);
                 self.blessing_array[self.blessing_array.size] = selected_blessing;
                 level.blessing_selected++;
                 has_selected = 1;
-                self iprintln("^7Selected ^5" + selected_blessing);
+                self iprintln(self.name + " ^7selected ^5" + selected_blessing);
                 break;
             }
             else
             {
-                self iprintln("^1Not enough cash or Z-Coins!");
+                self iprintln("^1Not enough cash!");
                 wait 1;
             }
         }
         wait 0.05;
     }
 
-    if (!has_selected)
+    // Auto-select if timed out
+    if(!has_selected)
     {
-        self iprintln("^1Blessing selection timed out.");
+        selected_blessing = (selector == "left") ? blessing_left : blessing_right;
+        selected_cost = (selector == "left") ? blessing_left_cost : blessing_right_cost;
+        if(self.score >= selected_cost)
+        {
+            self maps\mp\zombies\_zm_score::minus_to_player_score(selected_cost, 1);
+            self apply_blessing(selected_blessing);
+            self.blessing_array[self.blessing_array.size] = selected_blessing;
+            level.blessing_selected++;
+            self iprintln(self.name + " ^7selected ^5" + selected_blessing);
+        }
+        else
+        {
+            self iprintln("^1Blessing selection timed out. Not enough cash!");
+        }
     }
 
-    if (isdefined(self.blessing_hud)) self.blessing_hud destroy();
-    if (isdefined(self.blessing_desc)) self.blessing_desc destroy();
-
-    self playsound("zmb_quest_electricchair_spawn");
-    for (i = 0; i < 5; i++)
-        if (isdefined(level._effect["afterlife_teleport"]))
+    // Apply visual and audio effects
+    for(i = 0; i < 10; i++)
+        if(isdefined(level._effect["afterlife_teleport"]))
             playfx(level._effect["afterlife_teleport"], self.origin);
+    self playsound("zmb_quest_electricchair_spawn");
+
+    // Clean up HUD
+    if(isdefined(self.zombieChoiceA)) self.zombieChoiceA destroy();
+    if(isdefined(self.zombieChoiceAdesc)) self.zombieChoiceAdesc destroy();
+    if(isdefined(self.notifyiconb)) self.notifyiconb destroy();
+    if(isdefined(self.notifyicon)) self.notifyicon destroy();
+    if(isdefined(self.notifyicon2b)) self.notifyicon2b destroy();
+    if(isdefined(self.notifyicon2)) self.notifyicon2 destroy();
+    if(isdefined(self.notifyiconA)) self.notifyiconA destroy();
+    if(isdefined(self.notifyicon2a)) self.notifyicon2a destroy();
+    if(isdefined(self.zombieChoiceLeft)) self.zombieChoiceLeft destroy();
+    if(isdefined(self.zombieChoiceRight)) self.zombieChoiceRight destroy();
+    if(isdefined(self.zombieChoiceLeftDesc)) self.zombieChoiceLeftDesc destroy();
+    if(isdefined(self.zombieChoiceRightDesc)) self.zombieChoiceRightDesc destroy();
+
+    maps\mp\_visionset_mgr::vsmgr_deactivate("visionset", "zm_audio_log", self);
 }
 
+// Apply selected blessing effects
 apply_blessing(blessing_name)
 {
     self endon("disconnect");
     level endon("game_ended");
 
-    if (blessing_name == "Extra Life")
+    if(blessing_name == "Extra Life")
     {
         self thread scripts\AATs_Perks::drawshader_and_shadermove("Dying_Wish", 1, 1, "custom");
         self.xp_multiplier = 1.1;
     }
-    else if (blessing_name == "Speedrunner")
+    else if(blessing_name == "Speedrunner")
     {
         self.speedrunner = 1;
         self SetMoveSpeedScale(1.15 + (isdefined(self.lvl) ? self.lvl * 0.01 : 0));
         self.cash_multiplier = 1.05;
     }
-    else if (blessing_name == "Juggernaut")
+    else if(blessing_name == "Juggernaut")
     {
         self.extrahp = 1;
- //       self thread permaJuggernaut();
         self.cash_multiplier = 1.1;
     }
-    else if (blessing_name == "Medic")
+    else if(blessing_name == "Medic")
     {
-   //     self thread permaQuickRevive();
         self.perma_quick = 1;
         self.xp_multiplier = 1.15;
     }
-    else if (blessing_name == "Business Tycoon")
+    else if(blessing_name == "Business")
     {
         self thread business_manager();
         self.cells_multiplier = 1.2;
     }
-    else if (blessing_name == "Slayer")
+    else if(blessing_name == "Slayer")
     {
         self.slayer_multiplier = 1;
-    //    self thread apply_slayer_effects();
         self.cash_multiplier = 1.15;
     }
 }
 
+// Handle passive cell income for Business blessing
 business_manager()
 {
     self endon("disconnect");
@@ -355,17 +401,18 @@ business_manager()
     base_cell_income = 10 + (isdefined(self.lvl) ? self.lvl * 2 : 0) + (isdefined(self.prestige) ? self.prestige * 10 : 0);
     income_interval = 30;
 
-    for (;;)
+    for(;;)
     {
-        if (isdefined(self.cells) && isdefined(self.max_cells) && self.cells < self.max_cells)
+        if(isdefined(self.cells) && isdefined(self.max_cells) && self.cells < self.max_cells)
         {
             self.cells = min(self.cells + base_cell_income, self.max_cells);
-            self iprintln("^3Business Tycoon: ^2+" + base_cell_income + " cells^7 (Total: " + self.cells + ")");
+            self iprintln("^3Business: ^2+" + base_cell_income + " cells^7 (Total: " + self.cells + ")");
         }
         wait income_interval;
     }
 }
 
+// Award cash and XP for kills
 give_rewards(kill)
 {
     base_cash = 100;
@@ -374,6 +421,21 @@ give_rewards(kill)
     xp = base_xp * (isdefined(self.xp_multiplier) ? self.xp_multiplier : 1);
     self.score += cash;
     self.xp += xp;
+}
+
+// Utility function for drawing shaders
+drawshader(shader, x, y, width, height, color, alpha)
+{
+    hud = newClientHudElem(self);
+    hud.x = x;
+    hud.y = y;
+    hud.width = width;
+    hud.height = height;
+    hud.color = color;
+    hud.alpha = alpha;
+    hud.shader = shader;
+    hud setShader(shader, width, height);
+    return hud;
 }
 
 spawn_nexus()
