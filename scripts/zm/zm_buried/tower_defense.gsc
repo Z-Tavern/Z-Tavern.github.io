@@ -31,7 +31,7 @@ main()
     level thread on_player_connect();
 }
 
-// Define blessings with costs set to 50000 cash
+// Define blessings with costs set to 100000 cash
 init_blessing()
 {
     level endon("game_end");
@@ -46,7 +46,7 @@ init_blessing()
     // Extra Life: Level 1, Prestige 0
     level.blessing_array[0] = "Extra Life";
     level.blessing_array_desc[0] = "^3Grants 1x Dying Wish\n         (+10% XP)";
-    level.blessing_costs[0] = 50000;
+    level.blessing_costs[0] = 100000;
     level.blessing_min_level[0] = 1;
     level.blessing_min_prestige[0] = 0;
     level.blessing_bonus[0] = "xp_10";
@@ -54,7 +54,7 @@ init_blessing()
     // Speedrunner: Level 1, Prestige 0
     level.blessing_array[1] = "Speedrunner";
     level.blessing_array_desc[1] = "^3Increases movement speed\n           (+5% cash)";
-    level.blessing_costs[1] = 50000;
+    level.blessing_costs[1] = 100000;
     level.blessing_min_level[1] = 1;
     level.blessing_min_prestige[1] = 0;
     level.blessing_bonus[1] = "cash_5";
@@ -62,7 +62,7 @@ init_blessing()
     // Juggernaut: Level 5, Prestige 0
     level.blessing_array[2] = "Juggernaut";
     level.blessing_array_desc[2] = "^3Increases HP to 250\n             (+10% cash)";
-    level.blessing_costs[2] = 50000;
+    level.blessing_costs[2] = 100000;
     level.blessing_min_level[2] = 5;
     level.blessing_min_prestige[2] = 0;
     level.blessing_bonus[2] = "cash_10";
@@ -70,7 +70,7 @@ init_blessing()
     // Medic: Level 5, Prestige 0
     level.blessing_array[3] = "Medic";
     level.blessing_array_desc[3] = "^3Faster revives\n               (+15% XP)";
-    level.blessing_costs[3] = 50000;
+    level.blessing_costs[3] = 100000;
     level.blessing_min_level[3] = 5;
     level.blessing_min_prestige[3] = 0;
     level.blessing_bonus[3] = "xp_15";
@@ -78,7 +78,7 @@ init_blessing()
     // Business: Level 10, Prestige 1
     level.blessing_array[4] = "Business";
     level.blessing_array_desc[4] = "^3Passive cell income\n             (+20% cells)";
-    level.blessing_costs[4] = 50000;
+    level.blessing_costs[4] = 100000;
     level.blessing_min_level[4] = 10;
     level.blessing_min_prestige[4] = 1;
     level.blessing_bonus[4] = "cells_20";
@@ -86,7 +86,7 @@ init_blessing()
     // Slayer: Level 10, Prestige 1
     level.blessing_array[5] = "Slayer";
     level.blessing_array_desc[5] = "^3+0.5% damage per kill\n           (+15% cash)";
-    level.blessing_costs[5] = 50000;
+    level.blessing_costs[5] = 100000;
     level.blessing_min_level[5] = 10;
     level.blessing_min_prestige[5] = 1;
     level.blessing_bonus[5] = "cash_15";
