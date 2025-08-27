@@ -31,7 +31,7 @@ main()
     level thread on_player_connect();
 }
 
-// Define blessings with costs set to 100000 cash
+// Define blessings with costs set to 0 cash
 init_blessing()
 {
     level endon("game_end");
@@ -119,7 +119,6 @@ on_player_spawned()
     self.extrams = 0;
     self.hasBlessing = 0;
     self.slide_available = 1;
-    self.score = 100000; // Enough cash for testing
     self.cells = level.starting_cells;
     self.max_cells = level.max_cells;
     self.blessing_array = [];
@@ -261,7 +260,7 @@ blessing_selector()
     self.notifyicon2a = self drawshader(shader, 0, 4, 210, 60, (0, 0, 0), 1); 
     self.zombieChoiceA = maps\mp\gametypes_zm\_hud_util::createFontString("objective", 1.8);
     self.zombieChoiceA maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 25);
-    self.zombieChoiceA settext("^5Select a Blessing");
+    self.zombieChoiceA settext("^2$Purchase^7 a ^5Blessing");
     self.zombieChoiceA.alpha = 1;
     self.zombieChoiceA.foreground = 1;
     self.zombieChoiceLeft = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
