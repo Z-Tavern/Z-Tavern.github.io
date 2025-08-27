@@ -375,3 +375,37 @@ give_rewards(kill)
     self.score += cash;
     self.xp += xp;
 }
+
+spawn_nexus()
+{
+    level.nexus = spawn("script_model", (0, 0, 0));
+    level.nexus setmodel("viewmodel_zombie_cymbal_monkey");
+}
+
+all_zombies_path_to_nexus()
+{
+    level.nexus create_zombie_point_of_interest( 1536, 32, 10000 );
+	level.nexus.attract_to_origin = 1;
+	level.nexus thread create_zombie_point_of_interest_attractor_positions( 4, 45 );
+	level.nexus thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
+}
+
+all_zombies_unpath_from_nexus()
+{
+    // not implemented
+}
+
+all_zombies_path_to_point(point)
+{
+    attractor_point = spawn( "script_model", point );
+	attractor_point setmodel( "tag_origin" );
+	attractor_point create_zombie_point_of_interest( 1536, 32, 10000 );
+	attractor_point.attract_to_origin = 1;
+	attractor_point thread create_zombie_point_of_interest_attractor_positions( 4, 45 );
+	attractor_point thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
+}
+
+all_zombies_unpath_from_point(point)
+{
+    // not implemented
+}
