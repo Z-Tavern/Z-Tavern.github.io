@@ -310,7 +310,7 @@ blessing_selector()
             }
             else
             {
-                self iprintln("^1Not enough cash!");
+                self iprintln("^1Not enough cash^7! Use ^2.w 100000");
                 wait 1;
             }
         }
