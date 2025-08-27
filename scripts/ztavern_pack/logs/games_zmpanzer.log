@@ -1,0 +1,1044 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:09 J;3637131;0;malouk1976
+  0:09 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+  0:10 J;5551114;1;SC Kiels
+  0:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  0:12 say;5551114;1;SC Kiels;.g
+  0:13 say;5551114;1;SC Kiels;.money
+  0:16 say;5551114;1;SC Kiels;.lock 1
+  0:20 say;5551114;1;[B][MVP] Kiels;.lock
+  0:25 sayteam;3637131;0;[A][VIP] malouk1976;a merde 
+  0:25 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}, {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131, "Name": "[^3VIP^7] ^5malouk1976"}], "event": "round_start"}
+  0:26 say;5551114;1;[B][MVP] Kiels;.money
+  0:26 say;5551114;1;[B][MVP] Kiels;.g
+  0:29 sayteam;3637131;0;[A][VIP] malouk1976;dsl
+  0:39 sayteam;3637131;0;[A][VIP] malouk1976;je bouge tkt
+  0:49 Q;3637131;0;[^3VIP^7] ^5malouk1976
+  0:53 ShutdownGame:
+  0:53 ------------------------------------------------------------
+  0:53 ------------------------------------------------------------
+  0:53 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:53 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:59 J;5551114;1;SC Kiels
+  0:59 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  1:10 say;5551114;1;[B][MVP] Kiels;.money
+  1:14 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+  1:36 say;5551114;1;[B][MVP] Kiels;.g
+  1:38 say;5551114;1;[B][MVP] Kiels;.money
+  1:50 say;5551114;1;[B][MVP] Kiels;.mr
+  1:53 ShutdownGame:
+  1:53 ------------------------------------------------------------
+  1:53 ------------------------------------------------------------
+  1:53 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  1:53 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  1:58 J;5551114;1;SC Kiels
+  1:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  2:10 say;5551114;1;[B][MVP] Kiels;.money
+  2:13 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+  2:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  3:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  4:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  5:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  6:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  7:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  8:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+  9:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 10:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 11:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 12:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 13:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 14:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 15:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 16:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 17:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 18:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 19:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 20:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 21:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 22:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 23:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 24:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 25:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 26:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 27:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 28:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 29:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 30:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 31:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 32:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 33:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 34:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 35:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 36:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 37:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 38:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 39:43 say;5551114;1;[B][MVP] Kiels;.mr
+ 39:48 ShutdownGame:
+ 39:48 ------------------------------------------------------------
+ 39:48 ------------------------------------------------------------
+ 39:48 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 39:48 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 39:53 J;5551114;1;SC Kiels
+ 39:53 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 40:08 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+ 40:20 say;5551114;1;[B][MVP] Kiels;.mr
+ 40:28 ShutdownGame:
+ 40:28 ------------------------------------------------------------
+ 40:28 ------------------------------------------------------------
+ 40:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 40:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 40:33 J;5551114;1;SC Kiels
+ 40:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 40:48 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+ 41:08 say;5551114;1;[B][MVP] Kiels;.mr
+ 41:11 ShutdownGame:
+ 41:11 ------------------------------------------------------------
+ 41:11 ------------------------------------------------------------
+ 41:11 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 41:11 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 41:17 J;5551114;1;SC Kiels
+ 41:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 41:32 {"round": 0, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+ 41:43 say;5551114;1;[B][MVP] Kiels;.dr
+ 42:08 ShutdownGame:
+ 42:08 ------------------------------------------------------------
+ 42:08 ------------------------------------------------------------
+ 42:08 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 42:08 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 42:13 J;5551114;1;SC Kiels
+ 42:13 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 42:28 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+ 43:13 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 44:13 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 44:54 J;752582;0;Prtit
+ 44:54 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 752582}, "event": "update_stats"}
+ 45:01 say;752582;0;Prtit;9lawi ha9 ha9
+ 45:02 say;752582;0;Prtit;9lawi ha9 ha9
+ 45:06 say;752582;0;Prtit;9lawi ha9 ha9
+ 45:13 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 45:19 ShutdownGame:
+ 45:19 ------------------------------------------------------------
+ 45:19 ------------------------------------------------------------
+ 45:19 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 45:19 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[NEW] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 45:24 J;5551114;1;SC Kiels
+ 45:24 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 45:26 J;752582;0;Prtit
+ 45:26 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 752582}, "event": "update_stats"}
+ 45:41 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 752582, "Name": "Prtit"}, {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+ 45:51 say;752582;0;Prtit;9lawi where are the servers
+ 46:01 say;5551114;1;[B][MVP] Kiels;in Joe
+ 46:09 say;752582;0;Prtit;-_-
+ 46:11 say;5551114;1;[B][MVP] Kiels;xd
+ 46:16 say;752582;0;Prtit;u r 9lawi
+ 46:23 say;752582;0;Prtit;u know
+ 46:24 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5551114}, "event": "update_stats"}
+ 46:25 say;5551114;1;[B][MVP] Kiels;i hold servers ostage
+ 46:26 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 752582}, "event": "update_stats"}
+ 46:37 say;752582;0;Prtit;ight
+ 46:41 Q;5551114;1;[^1MVP^7] ^1Kiels
+ 46:45 Q;752582;0;Prtit
+ 47:07 ExitLevel: executed
+ 47:07 ShutdownGame:
+ 47:07 ------------------------------------------------------------
+ 47:07 ------------------------------------------------------------
+ 47:07 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 47:07 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 55:11 J;5418674;0;7 sin 7
+ 55:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 55:26 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674, "Name": "7 sin 7"}], "event": "round_start"}
+ 55:36 say;5418674;0;7 sin 7;.money
+ 56:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 57:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 57:12 J;1339099;1;Nakero
+ 57:12 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 57:32 say;1339099;1;Nakero;i see u using great ur time
+ 57:38 say;5418674;0;7 sin 7;yes
+ 57:44 say;1339099;1;Nakero;yes yes
+ 57:47 say;5418674;0;7 sin 7;where zombi?
+ 57:52 say;1339099;1;Nakero;where balls?
+ 58:03 say;5418674;0;7 sin 7;behind my dick
+ 58:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 58:12 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 58:12 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 5418674, "Name": "7 sin 7"}, "event": "player_downed"}
+ 58:13 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 5418674, "Name": "7 sin 7"}, "event": "player_downed"}
+ 58:17 say;1339099;1;Nakero;i dont hink so, u still hinding
+ 58:27 say;5418674;0;7 sin 7;what....
+ 58:34 ExitLevel: executed
+ 58:34 ShutdownGame:
+ 58:34 ------------------------------------------------------------
+ 58:34 ------------------------------------------------------------
+ 58:34 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 58:34 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 58:40 J;1339099;1;Nakero
+ 58:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 59:31 J;5418674;0;7 sin 7
+ 59:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 59:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 59:46 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674, "Name": "7 sin 7"}, {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099, "Name": "Nakero"}], "event": "round_start"}
+ 60:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 60:34 say;5418674;0;7 sin 7;does this even work?
+ 60:38 say;5418674;0;7 sin 7;.money
+ 60:39 say;5418674;0;7 sin 7;.ut
+ 60:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 60:41 say;5418674;0;7 sin 7;.rank
+ 60:42 say;1339099;1;Nakero;ur balls work?
+ 60:45 say;5418674;0;7 sin 7;no commands
+ 60:50 say;5418674;0;7 sin 7;hold on
+ 60:56 say;5418674;0;7 sin 7;lemme goon and i tell u
+ 61:11 say;1339099;1;Nakero;using ur time well gooning
+ 61:21 say;1339099;1;Nakero;intead prooving u have balls
+ 61:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 61:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 62:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 62:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1339099}, "event": "update_stats"}
+ 62:58 Q;1339099;1;Nakero
+ 63:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 64:31 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5418674}, "event": "update_stats"}
+ 65:03 say;5418674;0;7 sin 7;bro?
+ 65:16 Q;5418674;0;7 sin 7
+ 65:37 ExitLevel: executed
+ 65:37 ShutdownGame:
+ 65:37 ------------------------------------------------------------
+ 65:37 ------------------------------------------------------------
+ 65:37 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 65:37 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 66:47 J;3637131;0;malouk1976
+ 66:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+ 67:02 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131, "Name": "malouk1976"}], "event": "round_start"}
+ 67:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+ 68:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+ 69:28 J;4629606;1;MoroccoFN
+ 69:28 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 69:38 Q;4629606;1;MoroccoFN
+ 69:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+ 70:18 J;4629606;1;MoroccoFN
+ 70:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 70:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+ 71:03 sayteam;3637131;0;malouk1976;.revall
+ 71:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 71:20 say;4629606;1;MoroccoFN;leave we're going to restart again
+ 71:30 J;4105176;2;Johnssonn
+ 71:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 71:34 Q;3637131;0;malouk1976
+ 71:56 ExitLevel: executed
+ 71:56 ShutdownGame:
+ 71:56 ------------------------------------------------------------
+ 71:56 ------------------------------------------------------------
+ 71:56 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 71:56 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+ 72:01 J;4629606;1;MoroccoFN
+ 72:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 72:03 J;4105176;2;Johnssonn
+ 72:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 72:18 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176, "Name": "Johnssonn"}, {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606, "Name": "MoroccoFN"}], "event": "round_start"}
+ 73:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 73:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 73:09 say;4629606;1;MoroccoFN;.d all
+ 73:18 say;4105176;2;Johnssonn;nice mod lmao
+ 73:35 say;4629606;1;MoroccoFN;mod no working xd
+ 73:47 say;4105176;2;Johnssonn;.money
+ 73:56 say;4629606;1;MoroccoFN;ur from in france ?
+ 74:01 say;4105176;2;Johnssonn;yes
+ 74:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 74:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 74:08 say;4629606;1;MoroccoFN;BAIN JE SAIS T4ES QUI MDR
+ 74:14 say;4105176;2;Johnssonn;:)
+ 74:19 say;4629606;1;MoroccoFN;sa fait longtemps mdr
+ 74:25 say;4105176;2;Johnssonn;le serv date de fou 
+ 74:40 say;4629606;1;MoroccoFN;sa te rappelle nos 1 vs 1 sur les fr de die rise ?
+ 74:41 say;4629606;1;MoroccoFN;xd
+ 74:48 say;4105176;2;Johnssonn;vraiment 
+ 74:54 say;4105176;2;Johnssonn;terrible le reset du ser
+ 75:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 75:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 75:06 say;4629606;1;MoroccoFN;y a une nouvelle saison mais
+ 75:13 say;4629606;1;MoroccoFN;j'sais pas pk il a mit cette merde 
+ 75:29 say;4629606;1;MoroccoFN;ou peut-etre il est entrain de mettre  jour le serv sur la saison 6
+ 75:41 say;4105176;2;Johnssonn;jpense 
+ 75:44 say;4105176;2;Johnssonn;j'espere 
+ 75:57 say;4629606;1;MoroccoFN;mais y a un event botb mais bon je vois pas pk il a ce serv MDR
+ 76:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 76:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 76:08 say;4629606;1;MoroccoFN;t sur le serv discord ?
+ 76:18 say;4105176;2;Johnssonn;justement jvouslais voir l'event, ce que c'tait 
+ 76:20 say;4105176;2;Johnssonn;yes
+ 76:40 say;4629606;1;MoroccoFN;y a pas grand-chose dedans j'te ments pas
+ 76:55 say;4105176;2;Johnssonn;vraiment un peu vide
+ 77:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 77:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 77:25 say;4629606;1;MoroccoFN;on peut etre 16 ou 32 sur les serv mtn MDR
+ 77:29 say;4629606;1;MoroccoFN;c trop drole
+ 77:38 say;4105176;2;Johnssonn;pour les botb vraimetn 
+ 77:53 say;4629606;1;MoroccoFN;j'crois c tout les serv pas que les gamemodes
+ 78:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 78:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 78:06 say;4105176;2;Johnssonn;les autres serv sont mort xd
+ 78:11 say;4629606;1;MoroccoFN;mais tu gagnes pas grand chose des recompenses j'te le dis
+ 78:17 say;4629606;1;MoroccoFN;rip z-tav
+ 78:25 say;4105176;2;Johnssonn;vraiment l'conomie terrible 
+ 79:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 79:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 79:04 say;4629606;1;MoroccoFN;il a sup son ancien serv discord de 7k pour en avoir au finale que 263 dessus
+ 79:18 say;4629606;1;MoroccoFN;fin sur le nouveau
+ 79:45 say;4105176;2;Johnssonn;oui apres ll'ancien c'etait nimp en vrai le reset il le fallait
+ 80:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 80:03 say;4105176;2;Johnssonn;juste il aurait du tout remettre les map, les ldb et tou 
+ 80:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 80:29 say;4629606;1;MoroccoFN;l'ancien temps etait vachement mieux j'trouve
+ 80:35 say;4105176;2;Johnssonn;c'est sur
+ 80:38 say;4629606;1;MoroccoFN;surtout l'enfance 
+ 80:48 say;4629606;1;MoroccoFN;dans les annees 2010
+ 80:49 say;4629606;1;MoroccoFN;mdrr
+ 80:56 say;4105176;2;Johnssonn;xd
+ 81:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 81:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 81:38 say;4629606;1;MoroccoFN;t'avait l'ADSL quietait a son prime a l'epoque avec des prix exobitandes pour des debits de merdes
+ 82:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 4629606}, "event": "update_stats"}
+ 82:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 4105176}, "event": "update_stats"}
+ 82:11 say;4105176;2;Johnssonn;xd ptdr jme souvient les vieilles oreillette a la place du casque 
+ 82:16 say;4105176;2;Johnssonn;en vrai COD prime 
+ 82:32 say;4105176;2;Johnssonn;bon je re arpres si cabouge un peu a toute ;)
+ 82:34 Q;4105176;2;Johnssonn
+ 82:44 Q;4629606;1;MoroccoFN
+ 83:06 ExitLevel: executed
+ 83:06 ShutdownGame:
+ 83:06 ------------------------------------------------------------
+ 83:06 ------------------------------------------------------------
+ 83:06 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+ 83:06 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+101:47 J;4133488;0;Mr.Edp445
+101:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+102:02 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488, "Name": "Mr.Edp445"}], "event": "round_start"}
+102:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+103:29 Q;4133488;0;Mr.Edp445
+103:51 ExitLevel: executed
+103:51 ShutdownGame:
+103:51 ------------------------------------------------------------
+103:51 ------------------------------------------------------------
+103:51 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+103:51 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+110:58 J;3637131;0;malouk1976
+110:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+111:13 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131, "Name": "malouk1976"}], "event": "round_start"}
+111:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3637131}, "event": "update_stats"}
+112:50 Q;3637131;0;malouk1976
+113:12 ExitLevel: executed
+113:12 ShutdownGame:
+113:12 ------------------------------------------------------------
+113:12 ------------------------------------------------------------
+113:12 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+113:12 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+116:16 J;4105176;0;Johnssonn
+116:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+116:31 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+117:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+117:56 say;4105176;0;Johnssonn;.hug off
+118:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+118:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+118:25 ExitLevel: executed
+118:25 ShutdownGame:
+118:25 ------------------------------------------------------------
+118:25 ------------------------------------------------------------
+118:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+118:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+118:32 J;4105176;0;Johnssonn
+118:32 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+118:47 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+119:32 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+119:58 J;5987278;1;blancoi
+119:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5987278}, "event": "update_stats"}
+120:10 J;5975362;2;TikTok ImVxiee
+120:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 5975362}, "event": "update_stats"}
+120:32 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+120:40 say;5975362;2;TikTok ImVxiee;sooo what is this then haha
+120:58 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 5987278}, "event": "update_stats"}
+121:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+121:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 5975362}, "event": "update_stats"}
+121:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+121:18 Q;5987278;1;blancoi
+121:32 ExitLevel: executed
+121:32 ShutdownGame:
+121:32 ------------------------------------------------------------
+121:32 ------------------------------------------------------------
+121:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+121:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+121:37 J;5975362;2;TikTok ImVxiee
+121:37 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 5975362}, "event": "update_stats"}
+121:39 J;4105176;0;Johnssonn
+121:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+121:54 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 5975362, "Name": "TikTok ImVxiee"}], "event": "round_start"}
+122:17 say;5975362;2;TikTok ImVxiee;.money
+122:37 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 2, "Guid": 5975362}, "event": "update_stats"}
+122:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+122:42 Q;5975362;2;TikTok ImVxiee
+123:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+124:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+125:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+126:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+127:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+128:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+129:03 J;1161392;1;griffon
+129:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1161392}, "event": "update_stats"}
+129:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+130:03 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 1161392}, "event": "update_stats"}
+130:22 Q;1161392;1;griffon
+130:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+131:04 J;384664;1;Jebooty
+131:04 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 384664}, "event": "update_stats"}
+131:19 say;384664;1;Jebooty;yo
+131:23 say;4105176;0;Johnssonn;sup 
+131:28 say;384664;1;Jebooty;the goat
+131:32 say;4105176;0;Johnssonn;xd
+131:39 say;384664;1;Jebooty;.event
+131:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+131:42 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+131:43 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+131:51 Q;384664;1;Jebooty
+131:52 say;4105176;0;Johnssonn;insane z tav content
+132:04 ExitLevel: executed
+132:04 ShutdownGame:
+132:04 ------------------------------------------------------------
+132:04 ------------------------------------------------------------
+132:04 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+132:04 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+132:11 J;4105176;0;Johnssonn
+132:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+132:15 Q;4105176;0;Johnssonn
+132:26 {"round": 1, "players": [], "event": "round_start"}
+132:36 ExitLevel: executed
+132:36 ShutdownGame:
+132:36 ------------------------------------------------------------
+132:36 ------------------------------------------------------------
+132:36 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+132:36 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+139:38 J;5919928;0;aminbnz
+139:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+139:53 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928, "Name": "aminbnz"}], "event": "round_start"}
+140:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+141:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+142:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+143:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+144:38 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5919928}, "event": "update_stats"}
+144:39 say;5919928;0;aminbnz;.d all
+144:47 Q;5919928;0;aminbnz
+145:09 ExitLevel: executed
+145:09 ShutdownGame:
+145:09 ------------------------------------------------------------
+145:09 ------------------------------------------------------------
+145:09 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+145:09 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+150:25 J;1161392;0;griffon
+150:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 1161392}, "event": "update_stats"}
+150:40 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 1161392, "Name": "griffon"}], "event": "round_start"}
+150:56 say;1161392;0;griffon;.d all
+151:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 1161392}, "event": "update_stats"}
+152:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 1161392}, "event": "update_stats"}
+153:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 1161392}, "event": "update_stats"}
+153:51 Q;1161392;0;griffon
+154:13 ExitLevel: executed
+154:13 ShutdownGame:
+154:13 ------------------------------------------------------------
+154:13 ------------------------------------------------------------
+154:13 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+154:13 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+156:18 J;4133488;0;Mr.Edp445
+156:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+156:33 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488, "Name": "Mr.Edp445"}], "event": "round_start"}
+157:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+158:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+159:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+160:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+161:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+162:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+163:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4133488}, "event": "update_stats"}
+163:25 Q;4133488;0;Mr.Edp445
+163:46 ExitLevel: executed
+163:46 ShutdownGame:
+163:46 ------------------------------------------------------------
+163:46 ------------------------------------------------------------
+163:46 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+163:46 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+181:18 Q;4784168;0;Lmouch_
+181:40 ExitLevel: executed
+181:40 ShutdownGame:
+181:40 ------------------------------------------------------------
+181:40 ------------------------------------------------------------
+181:40 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+181:40 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+182:42 Q;4784168;0;Lmouch_
+183:04 ExitLevel: executed
+183:04 ShutdownGame:
+183:04 ------------------------------------------------------------
+183:04 ------------------------------------------------------------
+183:04 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+183:04 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+198:30 J;4105176;0;Johnssonn
+198:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+198:45 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+199:13 say;4105176;0;Johnssonn;waiting for players
+199:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+200:16 J;3637131;1;malouk1976
+200:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 3637131}, "event": "update_stats"}
+200:26 say;4105176;0;Johnssonn;hi need 4p
+200:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+200:36 say;4105176;0;Johnssonn;so im waiting
+200:42 sayteam;3637131;1;malouk1976;slt
+201:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 3637131}, "event": "update_stats"}
+201:17 Q;3637131;1;malouk1976
+201:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+202:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+203:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+203:33 J;873119;1;PlasmaCor
+203:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 1, "Guid": 873119}, "event": "update_stats"}
+203:43 say;4105176;0;Johnssonn;hi need 4p to start
+203:57 say;873119;1;PlasmaCor;.buy
+204:01 Q;873119;1;PlasmaCor
+204:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+205:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+206:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+207:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+207:49 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+208:10 ExitLevel: executed
+208:10 ShutdownGame:
+208:10 ------------------------------------------------------------
+208:10 ------------------------------------------------------------
+208:10 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+208:10 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+208:18 J;4105176;0;Johnssonn
+208:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+208:33 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+209:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+210:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+211:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+212:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+213:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+214:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+215:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+216:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+216:18 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+216:19 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+216:40 ExitLevel: executed
+216:40 ShutdownGame:
+216:40 ------------------------------------------------------------
+216:40 ------------------------------------------------------------
+216:40 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+216:40 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+216:47 J;4105176;0;Johnssonn
+216:47 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+217:02 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+217:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+217:11 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+217:32 ExitLevel: executed
+217:32 ShutdownGame:
+217:32 ------------------------------------------------------------
+217:32 ------------------------------------------------------------
+217:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+217:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+217:40 J;4105176;0;Johnssonn
+217:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+217:48 say;4105176;0;Johnssonn;.s
+217:55 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+218:22 say;4105176;0;Johnssonn;.d all
+218:24 say;4105176;0;Johnssonn;.s
+218:24 say;4105176;0;Johnssonn;.max
+218:25 say;4105176;0;Johnssonn;.max
+218:26 say;4105176;0;Johnssonn;.s
+218:26 say;4105176;0;Johnssonn;.s
+218:27 say;4105176;0;Johnssonn;.s
+218:29 say;4105176;0;Johnssonn;.d all
+218:35 say;4105176;0;Johnssonn;.max
+218:35 say;4105176;0;Johnssonn;.s
+218:35 say;4105176;0;Johnssonn;.s
+218:36 say;4105176;0;Johnssonn;.max
+218:38 say;4105176;0;Johnssonn;.max
+218:38 say;4105176;0;Johnssonn;.s
+218:39 say;4105176;0;Johnssonn;.d all
+218:39 say;4105176;0;Johnssonn;.d all
+218:40 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+219:10 Q;4105176;0;Johnssonn
+219:32 ExitLevel: executed
+219:32 ShutdownGame:
+219:32 ------------------------------------------------------------
+219:32 ------------------------------------------------------------
+219:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+219:32 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+220:10 J;4105176;0;Johnssonn
+220:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+220:25 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+220:43 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+220:44 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+221:05 ExitLevel: executed
+221:05 ShutdownGame:
+221:05 ------------------------------------------------------------
+221:05 ------------------------------------------------------------
+221:05 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+221:05 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+221:12 J;4105176;0;Johnssonn
+221:12 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+221:27 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+221:53 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+221:54 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}, "event": "player_downed"}
+222:12 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+222:15 ExitLevel: executed
+222:15 ShutdownGame:
+222:15 ------------------------------------------------------------
+222:15 ------------------------------------------------------------
+222:15 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+222:15 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+222:22 J;4105176;0;Johnssonn
+222:22 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+222:37 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+223:22 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+224:22 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+225:22 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+226:20 Q;4105176;0;Johnssonn
+226:42 ExitLevel: executed
+226:42 ShutdownGame:
+226:42 ------------------------------------------------------------
+226:42 ------------------------------------------------------------
+226:42 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+226:42 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+228:30 J;3923832;0;vandekerckhove2
+228:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3923832}, "event": "update_stats"}
+228:45 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3923832, "Name": "vandekerckhove2"}], "event": "round_start"}
+229:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3923832}, "event": "update_stats"}
+230:16 Q;3923832;0;vandekerckhove2
+230:38 ExitLevel: executed
+230:38 ShutdownGame:
+230:38 ------------------------------------------------------------
+230:38 ------------------------------------------------------------
+230:38 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+230:38 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+357:06 J;2813111;0;Jay Dizy
+357:06 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+357:21 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111, "Name": "Jay Dizy"}], "event": "round_start"}
+358:06 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+359:06 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+360:06 Q;2813111;0;Jay Dizy
+360:28 ExitLevel: executed
+360:28 ShutdownGame:
+360:28 ------------------------------------------------------------
+360:28 ------------------------------------------------------------
+360:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+360:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+370:57 J;2813111;0;Jay Dizy
+370:57 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+371:12 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111, "Name": "Jay Dizy"}], "event": "round_start"}
+371:57 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+372:57 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2813111}, "event": "update_stats"}
+373:20 Q;2813111;0;Jay Dizy
+373:42 ExitLevel: executed
+373:42 ShutdownGame:
+373:42 ------------------------------------------------------------
+373:42 ------------------------------------------------------------
+373:42 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+373:42 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+180:30 J;4784168;0;Lmouch_
+180:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4784168}, "event": "update_stats"}
+180:45 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4784168, "Name": "Lmouch_"}], "event": "round_start"}
+181:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4784168}, "event": "update_stats"}
+182:30 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4784168}, "event": "update_stats"}
+182:33 say;4784168;0;Lmouch_;.d all
+182:35 Q;4784168;0;Lmouch_
+182:57 ExitLevel: executed
+182:57 ShutdownGame:
+182:57 ------------------------------------------------------------
+182:57 ------------------------------------------------------------
+182:57 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+182:57 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+305:10 J;4587567;0;Ryan.
+305:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4587567}, "event": "update_stats"}
+305:25 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4587567, "Name": "Ryan."}], "event": "round_start"}
+306:10 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4587567}, "event": "update_stats"}
+306:20 say;4587567;0;Ryan.;.kill
+306:52 Q;4587567;0;Ryan.
+307:14 ExitLevel: executed
+307:14 ShutdownGame:
+307:14 ------------------------------------------------------------
+307:14 ------------------------------------------------------------
+307:14 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+307:14 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+379:54 J;2303783;0;TheBestBattle
+379:54 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2303783}, "event": "update_stats"}
+380:09 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2303783, "Name": "TheBestBattle"}], "event": "round_start"}
+380:12 say;2303783;0;TheBestBattle;.hud off what is this fn QR code
+380:54 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 2303783}, "event": "update_stats"}
+381:06 Q;2303783;0;TheBestBattle
+381:28 J;5926347;0;doctormanhattan
+381:28 ExitLevel: executed
+381:28 ShutdownGame:
+381:28 ------------------------------------------------------------
+381:28 ------------------------------------------------------------
+381:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+381:28 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+381:39 J;5926347;0;doctormanhattan
+381:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5926347}, "event": "update_stats"}
+381:54 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5926347, "Name": "doctormanhattan"}], "event": "round_start"}
+382:39 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5926347}, "event": "update_stats"}
+383:26 Q;5926347;0;doctormanhattan
+383:48 ExitLevel: executed
+383:48 ShutdownGame:
+383:48 ------------------------------------------------------------
+383:48 ------------------------------------------------------------
+383:48 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+383:48 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+483:17 J;4938005;0;yianni19
+483:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+483:32 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}], "event": "round_start"}
+484:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+484:18 say;4938005;0;yianni19;.top
+484:32 say;4938005;0;yianni19;.flex
+484:36 say;4938005;0;yianni19;,rank
+484:39 say;4938005;0;yianni19;.rank
+484:45 say;4938005;0;yianni19;.load
+484:47 say;4938005;0;yianni19;.ss
+485:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+485:24 say;4938005;0;yianni19;.start
+485:32 say;4938005;0;yianni19;.firstroom
+485:38 say;4938005;0;yianni19;.kill
+485:47 say;4938005;0;yianni19;.d
+486:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+486:31 say;4938005;0;yianni19;.afk
+486:36 say;4938005;0;yianni19;.afk
+486:43 say;4938005;0;yianni19;.afk off
+486:47 say;4938005;0;yianni19;.help
+486:55 say;4938005;0;yianni19;.play
+487:05 say;4938005;0;yianni19;how does this shit work
+487:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+487:19 say;4938005;0;yianni19;.drop
+487:23 say;4938005;0;yianni19;.gc
+487:33 say;4938005;0;yianni19;.save
+487:36 say;4938005;0;yianni19;.load
+487:38 say;4938005;0;yianni19;.ss
+487:48 say;4938005;0;yianni19;.lid
+487:53 say;4938005;0;yianni19;,pay
+487:55 say;4938005;0;yianni19;.pay
+488:02 say;4938005;0;yianni19;.mods
+488:17 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+488:36 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}, "event": "player_downed"}
+488:37 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}, "event": "player_downed"}
+488:58 ExitLevel: executed
+488:58 ShutdownGame:
+488:58 ------------------------------------------------------------
+488:58 ------------------------------------------------------------
+488:58 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+488:58 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+489:07 J;4938005;0;yianni19
+489:07 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+489:22 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}], "event": "round_start"}
+489:47 say;4938005;0;yianni19;how do i start
+490:03 say;4938005;0;yianni19;.event
+490:07 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+490:11 say;4938005;0;yianni19;.no clip
+490:52 say;4938005;0;yianni19;.FIRSTROOM
+491:07 say;4938005;0;yianni19;,top
+491:07 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+491:10 say;4938005;0;yianni19;.top
+491:14 say;4938005;0;yianni19;,firstroom
+491:17 Q;4938005;0;yianni19
+491:39 ExitLevel: executed
+491:39 ShutdownGame:
+491:39 ------------------------------------------------------------
+491:39 ------------------------------------------------------------
+491:39 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+491:39 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+492:25 J;4938005;0;yianni19
+492:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+492:40 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}], "event": "round_start"}
+493:21 say;4938005;0;yianni19;.ns
+493:23 say;4938005;0;yianni19;.gc
+493:25 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+493:27 say;4938005;0;yianni19;.hud
+493:31 say;4938005;0;yianni19;.firstroom
+493:37 say;4938005;0;yianni19;.rev
+493:46 say;4938005;0;yianni19;.rankup
+494:03 Q;4938005;0;yianni19
+494:25 ExitLevel: executed
+494:25 ShutdownGame:
+494:25 ------------------------------------------------------------
+494:25 ------------------------------------------------------------
+494:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+494:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+494:44 J;4938005;0;yianni19
+494:44 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005}, "event": "update_stats"}
+494:59 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4938005, "Name": "yianni19"}], "event": "round_start"}
+495:17 say;4938005;0;yianni19;,save
+495:19 say;4938005;0;yianni19;,load
+495:25 Q;4938005;0;yianni19
+495:46 ExitLevel: executed
+495:46 ShutdownGame:
+495:46 ------------------------------------------------------------
+495:46 ------------------------------------------------------------
+495:46 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+495:46 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+534:01 J;4105176;0;Johnssonn
+534:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+534:16 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+535:01 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+535:04 Q;4105176;0;Johnssonn
+535:18 J;4105176;0;Johnssonn
+535:26 ExitLevel: executed
+535:26 ShutdownGame:
+535:26 ------------------------------------------------------------
+535:26 ------------------------------------------------------------
+535:26 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+535:26 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+535:33 J;4105176;0;Johnssonn
+535:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+535:49 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176, "Name": "Johnssonn"}], "event": "round_start"}
+536:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+537:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+538:33 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 4105176}, "event": "update_stats"}
+539:04 Q;4105176;0;Johnssonn
+539:25 ExitLevel: executed
+539:25 ShutdownGame:
+539:25 ------------------------------------------------------------
+539:25 ------------------------------------------------------------
+539:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+539:25 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+573:34 J;3466428;0;PaCoErPoLy28
+573:34 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3466428}, "event": "update_stats"}
+573:47 say;3466428;0;PaCoErPoLy28;.HUD OFF
+573:49 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3466428, "Name": "PaCoErPoLy28"}], "event": "round_start"}
+574:34 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3466428}, "event": "update_stats"}
+574:46 Q;3466428;0;PaCoErPoLy28
+575:08 ExitLevel: executed
+575:08 ShutdownGame:
+575:08 ------------------------------------------------------------
+575:08 ------------------------------------------------------------
+575:08 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+575:08 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+591:26 J;5710357;0;Miri02
+591:26 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5710357}, "event": "update_stats"}
+591:41 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5710357, "Name": "Miri02"}], "event": "round_start"}
+592:26 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5710357}, "event": "update_stats"}
+592:35 say;5710357;0;Miri02;.firstroom
+592:42 say;5710357;0;Miri02;.kill
+592:48 say;5710357;0;Miri02;.gc
+592:58 say;5710357;0;Miri02;!help
+593:00 say;5710357;0;Miri02;.w all
+593:26 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5710357}, "event": "update_stats"}
+593:40 Q;5710357;0;Miri02
+594:02 ExitLevel: executed
+594:02 ShutdownGame:
+594:02 ------------------------------------------------------------
+594:02 ------------------------------------------------------------
+594:02 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+594:02 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+688:20 J;3826382;0;SensoriaEn3rGy
+688:20 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3826382}, "event": "update_stats"}
+688:35 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3826382, "Name": "SensoriaEn3rGy"}], "event": "round_start"}
+689:20 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 3826382}, "event": "update_stats"}
+689:34 Q;3826382;0;SensoriaEn3rGy
+689:55 ExitLevel: executed
+689:55 ShutdownGame:
+689:55 ------------------------------------------------------------
+689:55 ------------------------------------------------------------
+689:55 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+689:55 InitGame: \com_maxclients\8\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\[PBE] Z-TAVERN | TOWER DEFENSE\sv_maxclients\8\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_tomb\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  1:59 J;5551114;0;SC Kiels
+  1:59 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  1:16 J;5551114;0;SC Kiels
+  1:16 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  1:17 say;5551114;0;SC Kiels;.mr
+  1:19 say;5551114;0;SC Kiels;.mr
+  1:21 say;5551114;0;SC Kiels;.mr
+  1:23 say;5551114;0;[B][MVP] Kiels;.mr
+  1:30 say;5551114;0;[B][MVP] Kiels;.mr
+  1:31 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}], "event": "round_start"}
+  1:37 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 0}, "Clientslot": 0, "Guid": 5551114, "Name": "[^1MVP^7] ^1Kiels"}, "event": "player_downed"}
+  1:46 ShutdownGame:
+  1:46 ------------------------------------------------------------
+  1:46 ------------------------------------------------------------
+  1:46 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\/! ---- [TOWER DEFENSE] ---- /! | #Z-TAVERN /! \sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  1:46 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\/! ---- [TOWER DEFENSE] ---- /! | #Z-TAVERN /! \sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:14 J;5551114;0;SC Kiels
+  0:14 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  0:29 {"round": 1, "players": [{"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114, "Name": "SC Kiels"}], "event": "round_start"}
+  1:14 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  1:59 say;5551114;0;SC Kiels;.g
+  2:08 {"player": {"Stats": {"Score": 1295, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 4}, "Clientslot": 0, "Guid": 5551114, "Name": "SC Kiels"}, "event": "player_downed"}
+  2:10 say;5551114;0;SC Kiels;.mr
+  2:11 say;5551114;0;[B][MVP] Kiels;.fre
+  2:12 say;5551114;0;[B][MVP] Kiels;.fre
+  2:13 say;5551114;0;[B][MVP] Kiels;.fre
+  2:13 say;5551114;0;[B][MVP] Kiels;.fre
+  2:13 say;5551114;0;[B][MVP] Kiels;.fre
+  2:14 say;5551114;0;[B][MVP] Kiels;.mr
+  2:14 {"player": {"Stats": {"Score": 1295, "Headshots": 0, "Revives": 0, "Downs": 1, "Kills": 4}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  2:15 say;5551114;0;[B][MVP] Kiels;.fre
+  2:15 say;5551114;0;[B][MVP] Kiels;.mr
+  2:15 say;5551114;0;[B][MVP] Kiels;.fre
+  2:15 say;5551114;0;[B][MVP] Kiels;.mr
+  2:30 ExitLevel: executed
+  2:30 ShutdownGame:
+  2:30 ------------------------------------------------------------
+  2:30 ------------------------------------------------------------
+  2:30 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\/! ---- [TOWER DEFENSE] ---- /! | #Z-TAVERN /! \sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  2:30 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\/! ---- [TOWER DEFENSE] ---- /! | #Z-TAVERN /! \sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  2:35 J;5551114;0;SC Kiels
+  2:35 {"player": {"Stats": {"Score": 500, "Headshots": 0, "Revives": 0, "Downs": 0, "Kills": 0}, "Clientslot": 0, "Guid": 5551114}, "event": "update_stats"}
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/
+  0:00 InitGame: \com_maxclients\16\fs_game\modsztavern_pack\g_gametype\zclassic\g_randomSeed\0\gamename\PT6ZM\mapname\zm_buried\playlist_enabled\0\playlist_entry\0\protocol\2089\scr_team_fftype\1\shortversion\1\sv_allowAimAssist\1\sv_allowAnonymous\0\sv_clientFpsLimit\0\sv_disableClientConsole\0\sv_hostname\BlackOpsPublic\sv_maxclients\16\sv_maxPing\0\sv_minPing\0\sv_privateClients\0\sv_privateClientsForClients\0\sv_pure\0\sv_voice\1\sv_wwwBaseURL\http://198.251.89.100:81/\g_logTimeStampInSeconds\0

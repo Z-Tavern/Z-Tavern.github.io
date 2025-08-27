@@ -1,0 +1,565 @@
+Build r4906
+logfile opened on Wed Aug 27 14:43:28 2025
+
+Searching for files required to download mod: "mods\ztavern_pack" map: ""
+found 3 files required for mod download!
+Current language: english
+Current search path:
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6\mods\ztavern_pack\mod.iwd (20 files)
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/mods\ztavern_pack
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/raw
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6//
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/players
+C:\Users\Administrator\Downloads\pluto_t6_full_game/mods\ztavern_pack
+C:\Users\Administrator\Downloads\pluto_t6_full_game/usermaps
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/main
+C:\Users\Administrator\Downloads\pluto_t6_full_game/main
+C:\Users\Administrator\Downloads\pluto_t6_full_game/main_shared
+C:\Users\Administrator\Downloads\pluto_t6_full_game/players
+execing default_mp.cfg
+execing default_statversion.cfg
+completed execing default_statversion.cfg
+execing thumbstick_default.cfg
+completed execing thumbstick_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+completed execing default_mp.cfg
+execing default_mp_controls_english.cfg
+completed execing default_mp_controls_english.cfg
+r_aaSamples will be changed upon restarting.
+r_fullscreen will be changed upon restarting.
+r_monitor will be changed upon restarting.
+r_texFilterQuality will be changed upon restarting.
+execing configure.cfg
+r_aspectRatio will be changed upon restarting.
+completed execing configure.cfg
+'16' is not a valid value for dvar 'ai_corpseCount'
+  Domain is any integer from 0 to 8
+r_aaSamples will be changed upon restarting.
+r_texFilterQuality will be changed upon restarting.
+Loading fastfile patch_zm
+Loading fastfile code_post_gfx_zm
+Built adjacency info for IPaks 0ms
+fs_game is write protected
+execing ragdoll.cfg
+completed execing ragdoll.cfg
+Could not load stringtable "mp/gunlevels.csv".
+Could not load stringtable "mp/unlockmapping.csv".
+execing default_zm_gamesettings.cfg
+execing default_mp_gamesettings.cfg
+execing zm/gamesettings_default.cfg
+completed execing zm/gamesettings_default.cfg
+execing zm/gamesettings_tdm.cfg
+completed execing zm/gamesettings_tdm.cfg
+execing default_mp_gametypes.cfg
+Unknown command "resetCustomGametype"
+completed execing default_mp_gametypes.cfg
+completed execing default_mp_gamesettings.cfg
+execing zm/gamesettings_default.cfg
+completed execing zm/gamesettings_default.cfg
+execing zm/gamesettings_zclassic.cfg
+completed execing zm/gamesettings_zclassic.cfg
+completed execing default_zm_gamesettings.cfg
+bound socket to localhost:30007
+fs_game is write protected
+net_port will be changed upon restarting.
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing thumbstick_default.cfg
+completed execing thumbstick_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing thumbstick_default.cfg
+completed execing thumbstick_default.cfg
+--- Common Initialization Complete ---
+Unknown command "t6zm"
+fs_game is write protected
+net_port will be changed upon restarting.
+execing dedicated_zmtower.cfg
+Unknown command "limit"
+Unknown command "range"
+Unknown command "value"
+addedaddedAlready contained!
+Already contained!
+completed execing dedicated_zmtower.cfg
+Loading fastfile patch_ui_zm
+Loading fastfile ui_zm
+Built adjacency info for IPaks 0ms
+Loading fastfile common_zm
+Loading fastfile ffotd_tu17_zm_147
+Built adjacency info for IPaks 0ms
+Loading fastfile dlc0_load_zm
+Loading fastfile dlczm0_load_zm
+Loading fastfile dlc1_load_zm
+Loading fastfile dlc2_load_zm
+Loading fastfile dlc3_load_zm
+Loading fastfile dlc4_load_zm
+Loading fastfile dlc0dd_load_zm
+Loading fastfile seasonpass_load_zm
+Built adjacency info for IPaks 1ms
+Loading fastfile mod
+Loading fastfile mod_load
+Loading fastfile mod_patch
+Built adjacency info for IPaks 1ms
+execing default_zm_gamesettings.cfg
+execing default_mp_gamesettings.cfg
+execing zm/gamesettings_default.cfg
+completed execing zm/gamesettings_default.cfg
+execing zm/gamesettings_tdm.cfg
+completed execing zm/gamesettings_tdm.cfg
+'24' is not a valid value for dvar 'sv_maxclients'
+  Domain is any integer from 1 to 18
+scr_xpscale cannot be modified
+execing default_mp_gametypes.cfg
+Unknown command "resetCustomGametype"
+completed execing default_mp_gametypes.cfg
+completed execing default_mp_gamesettings.cfg
+execing zm/gamesettings_default.cfg
+completed execing zm/gamesettings_default.cfg
+execing zm/gamesettings_zclassic.cfg
+completed execing zm/gamesettings_zclassic.cfg
+completed execing default_zm_gamesettings.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing thumbstick_default.cfg
+completed execing thumbstick_default.cfg
+r_aaSamples will be changed upon restarting.
+r_fullscreen will be changed upon restarting.
+r_monitor will be changed upon restarting.
+r_texFilterQuality will be changed upon restarting.
+
+
+map_rotate...
+
+"sv_mapRotation" is: "execgts zm_classic_processing.cfg map zm_buried"
+
+"sv_mapRotationCurrent" is: ""
+
+Executing gts cfg: zm_classic_processing.cfg.
+Setting map: zm_buried.
+execing zm_classic_processing.cfg
+execing gamesettings_default.cfg
+completed execing gamesettings_default.cfg
+execing gamesettings_zclassic.cfg
+completed execing gamesettings_zclassic.cfg
+g_gametype will be changed upon restarting.
+completed execing zm_classic_processing.cfg
+Could not load rawfile "maps/mp/gametypes_zm/zcontainment.txt".
+Could not load rawfile "maps/mp/gametypes_zm/zrace.txt".
+Could not load rawfile "maps/mp/gametypes_zm/zdeadpool.txt".
+Could not load rawfile "maps/mp/gametypes_zm/zmeat.txt".
+Could not load rawfile "maps/mp/gametypes_zm/znml.txt".
+Could not load rawfile "maps/mp/gametypes_zm/zturned.txt".
+Could not load rawfile "maps/mp/gametypes_zm/zpitted.txt".
+DB_FlushGump 0
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 1
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 2
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 3
+Sys_GumpFlushed set gumpFlushedEvent
+Unloading fastfile ui_zm
+Unloading fastfile patch_ui_zm
+Could not load font "fonts/720/smallFont".
+Could not load font "fonts/720/normalFont".
+Could not load font "fonts/720/italicFont".
+Could not load font "fonts/720/bigFont".
+Could not load font "fonts/720/extraBigFont".
+Could not load font "fonts/720/extraSmallFont".
+Could not load font "fonts/720/smallItalicFont".
+Could not load material "lui_leftshadow".
+Could not load material "lui_rightshadow".
+Could not load material "lui_topshadow".
+Could not load material "lui_bottomshadow".
+Could not load material "zm_hud_icon_battery".
+Could not load material "zm_hud_icon_dolly".
+Could not load material "zm_hud_icon_cardoor".
+Could not load material "zm_hud_icon_arm".
+Could not load material "zm_hud_icon_panel".
+Could not load material "zm_hud_icon_lever".
+Could not load material "zm_hud_icon_papbody".
+Could not load material "zm_hud_icon_chairleg".
+Could not load material "zm_hud_icon_fan".
+Could not load material "zm_hud_icon_rudder".
+Could not load material "zm_hud_icon_mannequin".
+Could not load material "zm_hud_icon_turrethead".
+Could not load material "zm_hud_icon_lawnmower".
+Could not load material "zm_hud_icon_ammobox".
+Could not load material "zm_hud_icon_coil".
+Could not load material "zm_hud_icon_tvtube".
+Could not load material "zm_hud_icon_jetgun_wires".
+Could not load material "zm_hud_icon_jetgun_engine".
+Could not load material "zm_hud_icon_jetgun_gauges".
+Could not load material "zm_hud_icon_jetgun_handles".
+Could not load material "zm_hud_icon_plow".
+Could not load material "zm_hud_icon_hatch".
+Could not load material "zm_hud_icon_ladder".
+Could not load material "zm_hud_icon_sq_powerbox".
+Could not load material "zm_hud_icon_sq_meteor".
+Could not load material "zm_hud_icon_sq_scafold".
+Could not load material "zm_hud_icon_sq_tranceiver".
+Could not load material "zom_hud_trample_steam_screen".
+Could not load material "zom_hud_trample_steam_bellow".
+Could not load material "zom_hud_trample_steam_compressor".
+Could not load material "zom_hud_trample_steam_whistle".
+Could not load material "zom_hud_icon_buildable_slip_ext".
+Could not load material "zom_hud_icon_buildable_slip_cooker".
+Could not load material "zom_hud_icon_buildable_slip_foot".
+Could not load material "zom_hud_icon_buildable_slip_handle".
+Could not load material "zom_hud_icon_epod_key".
+Could not load material "zom_hud_icon_buildable_woof_speaker".
+Could not load material "zom_hud_icon_buildable_woof_motor".
+Could not load material "zom_hud_icon_buildable_woof_frame".
+Could not load material "zom_hud_icon_buildable_woof_chains".
+Could not load material "zom_hud_icon_buildable_chop_a".
+Could not load material "zom_hud_icon_buildable_chop_b".
+Could not load material "zom_hud_icon_buildable_chop_c".
+Could not load material "zom_hud_icon_buildable_chop_d".
+Could not load material "zom_hud_icon_buildable_sloth_booze".
+Could not load material "zom_hud_icon_buildable_sloth_candy".
+Could not load material "zom_hud_icon_buildable_sloth_key".
+Could not load material "zom_hud_icon_buildable_weap_chalk".
+Could not load material "zom_hud_icon_buildable_gen_lamp".
+Could not load material "zom_hud_icon_buildable_tower_vacuum".
+Could not load material "zom_hud_icon_buildable_tower_crystal".
+Could not load material "zom_hud_icon_buildable_tower_satellite".
+Could not load material "zom_hud_icon_buildable_tower_antenna".
+Could not load material "zm_hud_icon_spool".
+Could not load material "hud_dpad_xenon".
+Could not load material "specialty_chugabud_zombies".
+Could not load material "specialty_electric_cherry_zombie".
+Could not load material "zm_hud_stink_perk_glow".
+Could not load material "specialty_doublepoints_zombies_blue".
+Could not load material "specialty_firesale_zombies".
+Could not load material "zom_icon_bonfire".
+Could not load material "zom_icon_minigun".
+Could not load material "specialty_zomblood_zombies".
+Could not load material "loadscreen_zm_transit_zclassic_processing".
+DB_FlushGump 0
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 1
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 2
+Sys_GumpFlushed set gumpFlushedEvent
+DB_FlushGump 3
+Sys_GumpFlushed set gumpFlushedEvent
+Searching for iwds in C:\Users\Administrator\Downloads\pluto_t6_full_game/players
+Searching for iwds in C:\Users\Administrator\Downloads\pluto_t6_full_game/main_shared
+Searching for iwds in C:\Users\Administrator\Downloads\pluto_t6_full_game/main
+Searching for iwds in C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/main
+Searching for iwds in C:\Users\Administrator\Downloads\pluto_t6_full_game/usermaps
+Searching for iwds in C:\Users\Administrator\Downloads\pluto_t6_full_game/mods\ztavern_pack
+Searching for iwds in C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/players
+Searching for iwds in C:\Users\Administrator\AppData\Local\Plutonium\storage\t6//
+Searching for iwds in C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/raw
+Searching for iwds in C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/mods\ztavern_pack
+Adding iwd 'mod'
+Searching for files required to download mod: "mods\ztavern_pack" map: "zm_buried"
+found 3 files required for mod download!
+Current language: english
+Current search path:
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6\mods\ztavern_pack\mod.iwd (20 files)
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/mods\ztavern_pack
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/raw
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6//
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/players
+C:\Users\Administrator\Downloads\pluto_t6_full_game/mods\ztavern_pack
+C:\Users\Administrator\Downloads\pluto_t6_full_game/usermaps
+C:\Users\Administrator\AppData\Local\Plutonium\storage\t6/main
+C:\Users\Administrator\Downloads\pluto_t6_full_game/main
+C:\Users\Administrator\Downloads\pluto_t6_full_game/main_shared
+C:\Users\Administrator\Downloads\pluto_t6_full_game/players
+Loading fastfile zm_buried_patch
+Loading fastfile zm_buried
+Loading fastfile so_zclassic_zm_buried
+Built adjacency info for IPaks 1ms
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing buttons_default.cfg
+completed execing buttons_default.cfg
+execing thumbstick_default.cfg
+completed execing thumbstick_default.cfg
+Initializing game at 08/27/25 14:43:30 +0000
+Current uptime: 00:00:08
+Level time: 0
+Restart: 0
+------- Game Initialization -------
+gamename: PT6ZM
+gamedate: Aug 18 2025
+'0' is not a valid value for dvar 'r_brightness'
+  Domain is any number from 0.5 to 1.5
+Could not load weapon "qcw05_zm".
+Could not load weapon "qcw05_upgraded_zm".
+Could not load weapon "uzi_zm".
+Could not load weapon "thompson_zm".
+Could not load weapon "uzi_upgraded_zm".
+Could not load weapon "thompson_upgraded_zm".
+Could not load weapon "mp40_zm".
+Could not load weapon "mp40_stalker_zm".
+Could not load weapon "evoskorpion_zm".
+Could not load weapon "mp40_upgraded_zm".
+Could not load weapon "mp40_stalker_upgraded_zm".
+Could not load weapon "evoskorpion_upgraded_zm".
+Could not load weapon "xm8_zm".
+Could not load weapon "type95_zm".
+Could not load weapon "m16_upgraded_zm".
+Could not load weapon "xm8_upgraded_zm".
+Could not load weapon "type95_upgraded_zm".
+Could not load weapon "hk416_zm".
+Could not load weapon "hk416_upgraded_zm".
+Could not load weapon "ak47_zm".
+Could not load weapon "ak47_upgraded_zm".
+Could not load weapon "mp44_zm".
+Could not load weapon "scar_zm".
+Could not load weapon "mp44_upgraded_zm".
+Could not load weapon "scar_upgraded_zm".
+Could not load weapon "ak74u_extclip_zm".
+Could not load weapon "ksg_zm".
+Could not load weapon "ak74u_extclip_upgraded_zm".
+Could not load weapon "ksg_upgraded_zm".
+Could not load weapon "rpd_zm".
+Could not load weapon "rpd_upgraded_zm".
+Could not load weapon "mg08_zm".
+Could not load weapon "mg08_upgraded_zm".
+Could not load weapon "ballista_zm".
+Could not load weapon "ballista_upgraded_zm".
+Could not load weapon "python_zm".
+Could not load weapon "python_upgraded_zm".
+Could not load weapon "c96_zm".
+Could not load weapon "beretta93r_extclip_zm".
+Could not load weapon "c96_upgraded_zm".
+Could not load weapon "beretta93r_extclip_upgraded_zm".
+Could not load weapon "jetgun_zm".
+Could not load weapon "riotshield_zm".
+Could not load weapon "slipgun_zm".
+Could not load weapon "slipgun_upgraded_zm".
+Could not load weapon "alcatraz_shield_zm".
+Could not load weapon "minigun_alcatraz_zm".
+Could not load weapon "blundergat_zm".
+Could not load weapon "blundersplat_zm".
+Could not load weapon "bouncing_tomahawk_zm".
+Could not load weapon "minigun_alcatraz_upgraded_zm".
+Could not load weapon "blundergat_upgraded_zm".
+Could not load weapon "blundersplat_upgraded_zm".
+Could not load weapon "upgraded_tomahawk_zm".
+Could not load weapon "blundersplat_explosive_dart_zm".
+Could not load weapon "staff_air_zm".
+Could not load weapon "staff_fire_zm".
+Could not load weapon "staff_lightning_zm".
+Could not load weapon "staff_water_zm".
+Could not load weapon "staff_air_upgraded_zm".
+Could not load weapon "staff_fire_upgraded_zm".
+Could not load weapon "staff_lightning_upgraded_zm".
+Could not load weapon "staff_water_upgraded_zm".
+Could not load weapon "tomb_shield_zm".
+Could not load weapon "sticky_grenade_zm".
+Could not load weapon "emp_grenade_zm".
+Could not load weapon "beacon_zm".
+Could not load scriptparsetree "maps/mp/gametypes/_hud_util.gsc".
+Could not load scriptparsetree "maps/mp/gametypes_zm/_persistence.gsc".
+Unable to find server function: "CodeCallback_ChallengeComplete" in "maps/mp/gametypes_zm/_persistence"
+******* Linking to default stub function instead ******
+Unable to find server function: "CodeCallback_GunChallengeComplete" in "maps/mp/gametypes_zm/_persistence"
+******* Linking to default stub function instead ******
+Could not load scriptparsetree "maps/mp/gametypes_zm/_rank.gsc".
+Unable to find server function: "CodeCallback_RankUp" in "maps/mp/gametypes_zm/_rank"
+******* Linking to default stub function instead ******
+Could not load scriptparsetree "maps/mp/_medals.gsc".
+Unable to find server function: "CodeCallback_Medal" in "maps/mp/_medals"
+******* Linking to default stub function instead ******
+Unable to find server function: "CodeCallback_OnAddPlayerStat" in "maps/mp/gametypes_zm/_persistence"
+******* Linking to default stub function instead ******
+Unable to find server function: "CodeCallback_OnAddWeaponStat" in "maps/mp/gametypes_zm/_persistence"
+******* Linking to default stub function instead ******
+Unable to find server function: "giveContractRewards" in "maps/mp/gametypes_zm/_persistence"
+******* Linking to default stub function instead ******
+Script source "scripts/aats_perks.gsc" loaded successfully from raw
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_riotshield.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_riotshield_tomb.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_riotshield_prison.gsc".
+Could not load scriptparsetree "maps/mp/zm_transit_bus.gsc".
+Could not load scriptparsetree "maps/mp/zm_transit_utility.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_equip_turret.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_jetgun.gsc".
+Could not load scriptparsetree "maps/mp/_ambientpackage.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_utility.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_race_utility.gsc".
+Could not load scriptparsetree "maps/mp/zm_nuked_perks.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_utility.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_gamemodes.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_fx.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_quest_fire.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_capture_zones.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_teleporter.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_giant_robot.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_amb.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_ai_mechz.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_ai_quadrotor.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_vo.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_one_inch_punch.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_staff_fire.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_staff_water.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_staff_lightning.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_staff_air.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_achievement.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_distance_tracking.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_magicbox_tomb.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_challenges.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_perk_random.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_beacon.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_staff_revive.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_ambient_scripts.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_dig.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_main_quest.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_ee_main.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_ee_side.gsc".
+Could not load scriptparsetree "maps/mp/zm_tomb_chamber.gsc".
+Could not load scriptparsetree "character/c_usa_dempsey_dlc4.gsc".
+Could not load scriptparsetree "character/c_rus_nikolai_dlc4.gsc".
+Could not load scriptparsetree "character/c_ger_richtofen_dlc4.gsc".
+Could not load scriptparsetree "character/c_jap_takeo_dlc4.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_powerup_zombie_blood.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_challenges.gsc".
+Script source "scripts/points_multiplier.gsc" loaded successfully from raw
+Could not load scriptparsetree "maps/mp/zombies/_zm_afterlife.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_craftables.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_gamemodes.gsc".
+Could not load scriptparsetree "maps/mp/zm_prison_fx.gsc".
+Could not load scriptparsetree "maps/mp/zm_prison_ffotd.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_amb.gsc".
+Could not load scriptparsetree "maps/mp/zm_prison_achievement.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_distance_tracking.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_traps.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_travel.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_magicbox_prison.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_blundersplat.gsc".
+Could not load scriptparsetree "maps/mp/zombies/_zm_weap_tomahawk.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_weap_quest.gsc".
+Could not load scriptparsetree "maps/mp/zm_alcatraz_grief_cellblock.gsc".
+Could not load scriptparsetree "maps/mp/zm_prison.gsc".
+Could not load scriptparsetree "character/c_zom_arlington.gsc".
+Could not load scriptparsetree "character/c_zom_deluca.gsc".
+Could not load scriptparsetree "character/c_zom_handsome.gsc".
+Could not load scriptparsetree "character/c_zom_oleary.gsc".
+Script source "scripts/_clientids.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/_clientids"
+******* Linking to default stub function instead ******
+Script source "scripts/announcements.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/announcements"
+******* Linking to default stub function instead ******
+Script source "scripts/ballistic_watcher.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/ballistic_watcher"
+******* Linking to default stub function instead ******
+Script source "scripts/bankv2.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/bankv2"
+******* Linking to default stub function instead ******
+Script source "scripts/dev.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/dev"
+******* Linking to default stub function instead ******
+Could not load scriptparsetree "scripts/difficulty_selector.gsc".
+Unable to find server function: "main" in "scripts/difficulty_selector"
+******* Linking to default stub function instead ******
+Unable to find server function: "init" in "scripts/difficulty_selector"
+******* Linking to default stub function instead ******
+Script source "scripts/disable_lunge.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/disable_lunge"
+******* Linking to default stub function instead ******
+Script source "scripts/disable_revive_money.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/disable_revive_money"
+******* Linking to default stub function instead ******
+Script source "scripts/dropweapon.gsc" loaded successfully from raw
+Script source "scripts/dvar.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/dvar"
+******* Linking to default stub function instead ******
+Script source "scripts/ee.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/ee"
+******* Linking to default stub function instead ******
+Script source "scripts/faster_revive.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/faster_revive"
+******* Linking to default stub function instead ******
+Script source "scripts/fastwavespawn.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/fastwavespawn"
+******* Linking to default stub function instead ******
+Script source "scripts/function_fix.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/function_fix"
+******* Linking to default stub function instead ******
+Script source "scripts/gamemode_ports.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/gamemode_ports"
+******* Linking to default stub function instead ******
+Script source "scripts/gigapass.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/gigapass"
+******* Linking to default stub function instead ******
+Script source "scripts/give.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/give"
+******* Linking to default stub function instead ******
+Script source "scripts/glitch_fix.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/glitch_fix"
+******* Linking to default stub function instead ******
+Script source "scripts/god_noclip.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/god_noclip"
+******* Linking to default stub function instead ******
+Script source "scripts/killzm.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/killzm"
+******* Linking to default stub function instead ******
+Script source "scripts/limited_weapon.gsc" loaded successfully from raw
+Unable to find server function: "init" in "scripts/limited_weapon"
+******* Linking to default stub function instead ******
+Script source "scripts/maxammo.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/maxammo"
+******* Linking to default stub function instead ******
+Script source "scripts/more_zm.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/more_zm"
+******* Linking to default stub function instead ******
+Script source "scripts/music.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/music"
+******* Linking to default stub function instead ******
+Script source "scripts/no_fog.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/no_fog"
+******* Linking to default stub function instead ******
+Script source "scripts/on_player_connect.gsc" loaded successfully from raw
+Script source "scripts/stam_mule_no_whoswho.gsc" loaded successfully from raw
+Script source "scripts/zmcounterhealthwatermark.gsc" loaded successfully from raw
+Could not load scriptparsetree "scripts/zm/aats_perks.gsc".
+Unable to find server function: "main" in "scripts/on_player_connect"
+******* Linking to default stub function instead ******
+Script source "scripts/perkaholic.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/perkaholic"
+******* Linking to default stub function instead ******
+Unable to find server function: "main" in "scripts/points_multiplier"
+******* Linking to default stub function instead ******
+Script source "scripts/premium_pass.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/premium_pass"
+******* Linking to default stub function instead ******
+Script source "scripts/rank_requirements.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/rank_requirements"
+******* Linking to default stub function instead ******
+Script source "scripts/rename.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/rename"
+******* Linking to default stub function instead ******
+Script source "scripts/spectatormode.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/spectatormode"
+******* Linking to default stub function instead ******
+Script source "scripts/staff.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/staff"
+******* Linking to default stub function instead ******
+Unable to find server function: "main" in "scripts/stam_mule_no_whoswho"
+******* Linking to default stub function instead ******
+Unable to find server function: "init" in "scripts/stam_mule_no_whoswho"
+******* Linking to default stub function instead ******
+Script source "scripts/stats.gsc" loaded successfully from raw
+Script source "scripts/time_slip.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/time_slip"
+******* Linking to default stub function instead ******
+Script source "scripts/upgrade.gsc" loaded successfully from raw
+Unable to find server function: "main" in "scripts/upgrade"
+******* Linking to default stub function instead ******
+Script source "scripts/vipcommands.gsc" loaded successfully from raw
+Unable to find server
