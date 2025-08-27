@@ -8,6 +8,8 @@ main()
 {
     level endon("game_end");
     
+    precacheShader("zombies_rank_3");
+    precacheShader("zombies_rank_5");
     level.blessing_count = 6;
     level.zombie_ai_limit = 32;
     level.zombie_actor_limit = 40;
@@ -25,6 +27,8 @@ main()
 
     wait 0.1;
     init_blessing();
+
+    level thread on_player_connect();
 }
 
 // Define blessings with costs set to 50000 cash
@@ -41,7 +45,7 @@ init_blessing()
 
     // Extra Life: Level 1, Prestige 0
     level.blessing_array[0] = "Extra Life";
-    level.blessing_array_desc[0] = "^3Grants a Dying Wish charge (+10% XP) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[0] = "^3Grants 1x Dying Wish\n         (+10% XP)";
     level.blessing_costs[0] = 50000;
     level.blessing_min_level[0] = 1;
     level.blessing_min_prestige[0] = 0;
@@ -49,7 +53,7 @@ init_blessing()
 
     // Speedrunner: Level 1, Prestige 0
     level.blessing_array[1] = "Speedrunner";
-    level.blessing_array_desc[1] = "^3Increases movement speed (+5% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[1] = "^3Increases movement speed\n           (+5% cash)";
     level.blessing_costs[1] = 50000;
     level.blessing_min_level[1] = 1;
     level.blessing_min_prestige[1] = 0;
@@ -57,7 +61,7 @@ init_blessing()
 
     // Juggernaut: Level 5, Prestige 0
     level.blessing_array[2] = "Juggernaut";
-    level.blessing_array_desc[2] = "^3Increases HP to 250 (+10% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[2] = "^3Increases HP to 250\n             (+10% cash)";
     level.blessing_costs[2] = 50000;
     level.blessing_min_level[2] = 5;
     level.blessing_min_prestige[2] = 0;
@@ -65,7 +69,7 @@ init_blessing()
 
     // Medic: Level 5, Prestige 0
     level.blessing_array[3] = "Medic";
-    level.blessing_array_desc[3] = "^3Faster revives (+15% XP) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[3] = "^3Faster revives\n               (+15% XP)";
     level.blessing_costs[3] = 50000;
     level.blessing_min_level[3] = 5;
     level.blessing_min_prestige[3] = 0;
@@ -73,7 +77,7 @@ init_blessing()
 
     // Business: Level 10, Prestige 1
     level.blessing_array[4] = "Business";
-    level.blessing_array_desc[4] = "^3Passive cell income (+20% cells) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[4] = "^3Passive cell income\n             (+20% cells)";
     level.blessing_costs[4] = 50000;
     level.blessing_min_level[4] = 10;
     level.blessing_min_prestige[4] = 1;
@@ -81,7 +85,7 @@ init_blessing()
 
     // Slayer: Level 10, Prestige 1
     level.blessing_array[5] = "Slayer";
-    level.blessing_array_desc[5] = "^3+0.5% damage per kill (+15% cash) ^7Cost: ^2$50000 Cash";
+    level.blessing_array_desc[5] = "^3+0.5% damage per kill\n           (+15% cash)";
     level.blessing_costs[5] = 50000;
     level.blessing_min_level[5] = 10;
     level.blessing_min_prestige[5] = 1;
@@ -96,6 +100,7 @@ on_player_connect()
     {
         level waittill("connected", player);
         player thread on_player_spawned();
+        player thread money_watcher();
     }
 }
 
@@ -121,6 +126,25 @@ on_player_spawned()
 
     self thread blessing_selector();
     self thread player_slide();
+}
+
+// Monitor player's cash and play cha-ching sound on increase
+money_watcher()
+{
+    self endon("disconnect");
+    level endon("game_ended");
+
+    for(;;)
+    {
+        if(isdefined(self.score) && isdefined(self.last_score) && self.score > self.last_score)
+        {
+            cash_gained = self.score - self.last_score;
+            self playsound("zmb_cha_ching");
+            self iprintln("^2+$" + cash_gained);
+        }
+        self.last_score = self.score;
+        wait 0.05;
+    }
 }
 
 // Handle player slide ability
@@ -162,7 +186,6 @@ player_slide()
         wait 0.05;
     }
 }
-
 // Display and handle blessing selection with two-option UI
 blessing_selector()
 {
@@ -175,7 +198,7 @@ blessing_selector()
         return;
     }
 
-    maps\mp\_visionset_mgr::vsmgr_activate("visionset", "zm_audio_log", self);
+    self iprintln("^3Blessing selector started..."); // Debug message
 
     // Filter available blessings based on level, prestige, and existing blessings
     blessing_array_tmp = [];
@@ -184,8 +207,6 @@ blessing_selector()
 
     foreach(i, blessing in level.blessing_array)
     {
-        if(level.gamemode_difficulty == "^9Endless^7" && blessing == "Slayer")
-            continue;
         if(isdefined(self.lvl) && isdefined(self.prestige) && self.lvl >= level.blessing_min_level[i] && self.prestige >= level.blessing_min_prestige[i])
         {
             have_blessing = 0;
@@ -209,7 +230,6 @@ blessing_selector()
     if(blessing_array_tmp.size < 2)
     {
         self iprintln("^1Not enough blessings available! Level up to unlock.");
-        maps\mp\_visionset_mgr::vsmgr_deactivate("visionset", "zm_audio_log", self);
         return;
     }
 
@@ -230,51 +250,40 @@ blessing_selector()
     blessing_right_desc = blessing_array_tmp_desc[rand];
     blessing_right_cost = blessing_array_tmp_costs[rand];
 
-    // Create HUD elements
-    self.zombieChoiceA = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
-    self.zombieChoiceA maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 21);
-    self.zombieChoiceA settext("^5Select your Blessing");
-    self.zombieChoiceA.alpha = 0.8;
-    self.zombieChoiceA.foreground = 1;
+    self iprintln("^3Left: " + blessing_left + " | Right: " + blessing_right); // Debug message
 
-    self.zombieChoiceAdesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
-    self.zombieChoiceAdesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 45);
-    self.zombieChoiceAdesc settext("^3Melee^5 to switch, ^3Use^5 to confirm^7");
-    self.zombieChoiceAdesc.alpha = 0.8;
-    self.zombieChoiceAdesc.foreground = 1;
-
+    // Create HUD elements with shaders
     shader = "zombies_rank_5";
-    self.notifyiconb = drawshader(shader, 70, 68, 140, 140, (1, 0, 0), 1);
-    self.notifyicon = drawshader(shader, 70, 70, 128, 128, (0, 0, 0), 1);
-    self.notifyicon2b = drawshader(shader, -70, 68, 140, 140, (1, 0, 0), 1);
-    self.notifyicon2 = drawshader(shader, -70, 70, 128, 128, (0, 0, 0), 1);
+    self.notifyiconb = self drawshader(shader, 70, 68, 140, 140, (1, 0, 0), 1);
+    self.notifyicon = self drawshader(shader, 70, 70, 128, 128, (0, 0, 0), 1);
+    self.notifyicon2b = self drawshader(shader, -70, 68, 140, 140, (1, 0, 0), 1);
+    self.notifyicon2 = self drawshader(shader, -70, 70, 128, 128, (0, 0, 0), 1);
     shader = "zombies_rank_3";
-    self.notifyiconA = drawshader(shader, 0, 4, 231, 66, (0, 0, 1), 1);
-    self.notifyicon2a = drawshader(shader, 0, 4, 210, 60, (0, 0, 0), 1);
-
+    self.notifyiconA = self drawshader(shader, 0, 4, 231, 66, (0, 0, 1), 1);
+    self.notifyicon2a = self drawshader(shader, 0, 4, 210, 60, (0, 0, 0), 1); 
+    self.zombieChoiceA = maps\mp\gametypes_zm\_hud_util::createFontString("objective", 1.8);
+    self.zombieChoiceA maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 0, 25);
+    self.zombieChoiceA settext("^5Select a Blessing");
+    self.zombieChoiceA.alpha = 1;
+    self.zombieChoiceA.foreground = 1;
     self.zombieChoiceLeft = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
     self.zombieChoiceLeft maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", -70, 100);
     self.zombieChoiceLeft settext("^3[^5" + blessing_left + "^3]^7");
     self.zombieChoiceLeft.alpha = 0.8;
     self.zombieChoiceLeft.foreground = 1;
-
     self.zombieChoiceRight = maps\mp\gametypes_zm\_hud_util::createFontString("big", 2);
     self.zombieChoiceRight maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 70, 100);
     self.zombieChoiceRight settext("^5" + blessing_right + "^7");
     self.zombieChoiceRight.alpha = 0.8;
     self.zombieChoiceRight.foreground = 1;
-
-    self.zombieChoiceLeftDesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
-    self.zombieChoiceLeftDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", -70, 130);
+    self.zombieChoiceLeftDesc = maps\mp\gametypes_zm\_hud_util::createFontString("objective", 1.2);
+    self.zombieChoiceLeftDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", -70, 120);
     self.zombieChoiceLeftDesc settext(blessing_left_desc);
     self.zombieChoiceLeftDesc.alpha = 0.8;
-    self.zombieChoiceLeftDesc.foreground = 1;
-
-    self.zombieChoiceRightDesc = maps\mp\gametypes_zm\_hud_util::createFontString("big", 1);
-    self.zombieChoiceRightDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 70, 130);
+    self.zombieChoiceRightDesc = maps\mp\gametypes_zm\_hud_util::createFontString("objective", 1.2);
+    self.zombieChoiceRightDesc maps\mp\gametypes_zm\_hud_util::setPoint("CENTER", "TOP", 70, 120);
     self.zombieChoiceRightDesc settext(blessing_right_desc);
     self.zombieChoiceRightDesc.alpha = 0.8;
-    self.zombieChoiceRightDesc.foreground = 1;
 
     // Selection loop
     selector = "left";
@@ -337,22 +346,18 @@ blessing_selector()
     self playsound("zmb_quest_electricchair_spawn");
 
     // Clean up HUD
-    if(isdefined(self.zombieChoiceA)) self.zombieChoiceA destroy();
-    if(isdefined(self.zombieChoiceAdesc)) self.zombieChoiceAdesc destroy();
     if(isdefined(self.notifyiconb)) self.notifyiconb destroy();
     if(isdefined(self.notifyicon)) self.notifyicon destroy();
     if(isdefined(self.notifyicon2b)) self.notifyicon2b destroy();
     if(isdefined(self.notifyicon2)) self.notifyicon2 destroy();
     if(isdefined(self.notifyiconA)) self.notifyiconA destroy();
     if(isdefined(self.notifyicon2a)) self.notifyicon2a destroy();
+    if(isdefined(self.zombieChoiceA)) self.zombieChoiceA destroy();
     if(isdefined(self.zombieChoiceLeft)) self.zombieChoiceLeft destroy();
     if(isdefined(self.zombieChoiceRight)) self.zombieChoiceRight destroy();
     if(isdefined(self.zombieChoiceLeftDesc)) self.zombieChoiceLeftDesc destroy();
     if(isdefined(self.zombieChoiceRightDesc)) self.zombieChoiceRightDesc destroy();
-
-    maps\mp\_visionset_mgr::vsmgr_deactivate("visionset", "zm_audio_log", self);
 }
-
 // Apply selected blessing effects
 apply_blessing(blessing_name)
 {
@@ -423,21 +428,6 @@ give_rewards(kill)
     self.xp += xp;
 }
 
-// Utility function for drawing shaders
-drawshader(shader, x, y, width, height, color, alpha)
-{
-    hud = newClientHudElem(self);
-    hud.x = x;
-    hud.y = y;
-    hud.width = width;
-    hud.height = height;
-    hud.color = color;
-    hud.alpha = alpha;
-    hud.shader = shader;
-    hud setShader(shader, width, height);
-    return hud;
-}
-
 spawn_nexus()
 {
     level.nexus = spawn("script_model", (0, 0, 0));
@@ -446,10 +436,10 @@ spawn_nexus()
 
 all_zombies_path_to_nexus()
 {
-    level.nexus create_zombie_point_of_interest( 1536, 32, 10000 );
-	level.nexus.attract_to_origin = 1;
-	level.nexus thread create_zombie_point_of_interest_attractor_positions( 4, 45 );
-	level.nexus thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
+    level.nexus create_zombie_point_of_interest(1536, 32, 10000);
+    level.nexus.attract_to_origin = 1;
+    level.nexus thread create_zombie_point_of_interest_attractor_positions(4, 45);
+    level.nexus thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
 }
 
 all_zombies_unpath_from_nexus()
@@ -459,12 +449,12 @@ all_zombies_unpath_from_nexus()
 
 all_zombies_path_to_point(point)
 {
-    attractor_point = spawn( "script_model", point );
-	attractor_point setmodel( "tag_origin" );
-	attractor_point create_zombie_point_of_interest( 1536, 32, 10000 );
-	attractor_point.attract_to_origin = 1;
-	attractor_point thread create_zombie_point_of_interest_attractor_positions( 4, 45 );
-	attractor_point thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
+    attractor_point = spawn("script_model", point);
+    attractor_point setmodel("tag_origin");
+    attractor_point create_zombie_point_of_interest(1536, 32, 10000);
+    attractor_point.attract_to_origin = 1;
+    attractor_point thread create_zombie_point_of_interest_attractor_positions(4, 45);
+    attractor_point thread maps\mp\zombies\_zm_weap_cymbal_monkey::wait_for_attractor_positions_complete();
 }
 
 all_zombies_unpath_from_point(point)
