@@ -13,7 +13,7 @@
     "lods": [
         {
             "distance": 3671.6748046875,
-            "file": "model_export/viewmodel_zombie_cymbal_monkey_lod0.glb"
+            "file": "model_export/viewmodel_zombie_cymbal_monkey_scaleD4.glb"
         }
     ],
     "type": "animated"
